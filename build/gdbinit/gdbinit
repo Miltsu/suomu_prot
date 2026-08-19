@@ -1,0 +1,2 @@
+source /Users/juote/esp/hello_world/build/gdbinit/symbols
+source /Users/juote/esp/hello_world/build/gdbinit/connect

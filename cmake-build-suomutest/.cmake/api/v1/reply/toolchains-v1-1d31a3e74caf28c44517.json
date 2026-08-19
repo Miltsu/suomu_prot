@@ -1,0 +1,134 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-gcc",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/picolibc/include",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/picolibc/riscv32-esp-elf/include/c++/16.1.0/riscv32-esp-elf/rv32imc_zmmul_zca/ilp32",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0/include",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0/include-fixed",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/include"
+					],
+					"linkDirectories" : 
+					[
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/picolibc/riscv32-esp-elf/lib/rv32imc_zmmul_zca/ilp32/no-rtti",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/picolibc/riscv32-esp-elf/lib",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/picolibc/lib/gcc/riscv32-esp-elf/16.1.0/rv32imc_zmmul_zca/ilp32/no-rtti",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/picolibc/lib/gcc/riscv32-esp-elf/16.1.0",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0/rv32imc_zmmul_zca/ilp32/no-rtti",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/lib/rv32imc_zmmul_zca/ilp32/no-rtti",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/lib",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc",
+						"c",
+						"gcc"
+					]
+				},
+				"path" : "/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-gcc",
+				"version" : "16.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/picolibc/include",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/picolibc/riscv32-esp-elf/include/c++/16.1.0/riscv32-esp-elf/rv32imc_zmmul_zca/ilp32/no-rtti",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/include/c++/16.1.0",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/include/c++/16.1.0/riscv32-esp-elf/rv32imc_zmmul_zca/ilp32/no-rtti",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/include/c++/16.1.0/backward",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0/include",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0/include-fixed",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/include"
+					],
+					"linkDirectories" : 
+					[
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/picolibc/riscv32-esp-elf/lib/rv32imc_zmmul_zca/ilp32/no-rtti",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/picolibc/riscv32-esp-elf/lib",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/picolibc/lib/gcc/riscv32-esp-elf/16.1.0/rv32imc_zmmul_zca/ilp32/no-rtti",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/picolibc/lib/gcc/riscv32-esp-elf/16.1.0",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0/rv32imc_zmmul_zca/ilp32/no-rtti",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/lib/rv32imc_zmmul_zca/ilp32/no-rtti",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/lib",
+						"/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc",
+						"c",
+						"gcc"
+					]
+				},
+				"path" : "/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-g++",
+				"version" : "16.1.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

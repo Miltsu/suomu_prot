@@ -1,0 +1,5 @@
+-specs=picolibc.specs
+-march=rv32imc_zicsr_zifencei
+-mtune=esp32c3
+-fno-rtti
+-ftrivial-auto-var-init=uninitialized
