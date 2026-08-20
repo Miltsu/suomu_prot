@@ -1,8 +1,6 @@
 /Users/juote/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/juote/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DIDF_TARGET=esp32c3 -G Ninja -S /Users/juote/esp/hello_world -B /Users/juote/esp/hello_world/cmake-build-suomutest
 -- Minimal build - ON
 -- No compiler launcher chain will be used.
--- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
--- Could not use 'git describe' to determine PROJECT_VER.
 -- Building ESP-IDF components for target esp32c3
 -- Checking Python dependencies...
 Python requirements are satisfied.
@@ -32,7 +30,7 @@ NOTE: Status: Finished successfully
 -- Detecting CXX compiler ABI info - done
 -- Adding linker script /Users/juote/esp/esp-idf/components/riscv/ld/rom.api.ld
 -- Adding linker script /Users/juote/esp/esp-idf/components/esp_hal_regi2c/esp32c3/rom.regi2c.ld
--- App "hello_world" version: 1
+-- App "hello_world" version: 019db5a-dirty
 -- Setting up mbedtls configuration
 -- Linkage type is PUBLIC
 -- Adding linker script /Users/juote/esp/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in
@@ -57,6 +55,6 @@ NOTE: Status: Finished successfully
 -- Adding linker script /Users/juote/esp/esp-idf/components/soc/esp32c3/ld/esp32c3.peripherals.ld
 -- Components: app_update bootloader bootloader_support cxx efuse esp_adc esp_app_format esp_blockdev esp_bootloader_format esp_common esp_driver_bitscrambler esp_driver_dma esp_driver_gpio esp_driver_rmt esp_driver_spi esp_hal_ana_conv esp_hal_clock esp_hal_debug_assist esp_hal_dma esp_hal_gpio esp_hal_gpspi esp_hal_mspi esp_hal_pmu esp_hal_regi2c esp_hal_rmt esp_hal_rtc_timer esp_hal_security esp_hal_systimer esp_hal_timg esp_hal_touch_sens esp_hal_uart esp_hal_usb esp_hal_wdt esp_hw_support esp_libc esp_mm esp_partition esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_stdio esp_system esp_timer esp_usb_cdc_rom_console espressif__led_strip esptool_py freertos hal heap log main mbedtls partition_table pthread riscv soc spi_flash
 -- Component paths: /Users/juote/esp/esp-idf/components/app_update /Users/juote/esp/esp-idf/components/bootloader /Users/juote/esp/esp-idf/components/bootloader_support /Users/juote/esp/esp-idf/components/cxx /Users/juote/esp/esp-idf/components/efuse /Users/juote/esp/esp-idf/components/esp_adc /Users/juote/esp/esp-idf/components/esp_app_format /Users/juote/esp/esp-idf/components/esp_blockdev /Users/juote/esp/esp-idf/components/esp_bootloader_format /Users/juote/esp/esp-idf/components/esp_common /Users/juote/esp/esp-idf/components/esp_driver_bitscrambler /Users/juote/esp/esp-idf/components/esp_driver_dma /Users/juote/esp/esp-idf/components/esp_driver_gpio /Users/juote/esp/esp-idf/components/esp_driver_rmt /Users/juote/esp/esp-idf/components/esp_driver_spi /Users/juote/esp/esp-idf/components/esp_hal_ana_conv /Users/juote/esp/esp-idf/components/esp_hal_clock /Users/juote/esp/esp-idf/components/esp_hal_debug_assist /Users/juote/esp/esp-idf/components/esp_hal_dma /Users/juote/esp/esp-idf/components/esp_hal_gpio /Users/juote/esp/esp-idf/components/esp_hal_gpspi /Users/juote/esp/esp-idf/components/esp_hal_mspi /Users/juote/esp/esp-idf/components/esp_hal_pmu /Users/juote/esp/esp-idf/components/esp_hal_regi2c /Users/juote/esp/esp-idf/components/esp_hal_rmt /Users/juote/esp/esp-idf/components/esp_hal_rtc_timer /Users/juote/esp/esp-idf/components/esp_hal_security /Users/juote/esp/esp-idf/components/esp_hal_systimer /Users/juote/esp/esp-idf/components/esp_hal_timg /Users/juote/esp/esp-idf/components/esp_hal_touch_sens /Users/juote/esp/esp-idf/components/esp_hal_uart /Users/juote/esp/esp-idf/components/esp_hal_usb /Users/juote/esp/esp-idf/components/esp_hal_wdt /Users/juote/esp/esp-idf/components/esp_hw_support /Users/juote/esp/esp-idf/components/esp_libc /Users/juote/esp/esp-idf/components/esp_mm /Users/juote/esp/esp-idf/components/esp_partition /Users/juote/esp/esp-idf/components/esp_pm /Users/juote/esp/esp-idf/components/esp_psram /Users/juote/esp/esp-idf/components/esp_ringbuf /Users/juote/esp/esp-idf/components/esp_rom /Users/juote/esp/esp-idf/components/esp_security /Users/juote/esp/esp-idf/components/esp_stdio /Users/juote/esp/esp-idf/components/esp_system /Users/juote/esp/esp-idf/components/esp_timer /Users/juote/esp/esp-idf/components/esp_usb_cdc_rom_console /Users/juote/esp/hello_world/managed_components/espressif__led_strip /Users/juote/esp/esp-idf/components/esptool_py /Users/juote/esp/esp-idf/components/freertos /Users/juote/esp/esp-idf/components/hal /Users/juote/esp/esp-idf/components/heap /Users/juote/esp/esp-idf/components/log /Users/juote/esp/hello_world/main /Users/juote/esp/esp-idf/components/mbedtls /Users/juote/esp/esp-idf/components/partition_table /Users/juote/esp/esp-idf/components/pthread /Users/juote/esp/esp-idf/components/riscv /Users/juote/esp/esp-idf/components/soc /Users/juote/esp/esp-idf/components/spi_flash
--- Configuring done (6.7s)
+-- Configuring done (6.6s)
 -- Generating done (0.3s)
 -- Build files have been written to: /Users/juote/esp/hello_world/cmake-build-suomutest

@@ -1,4 +1,0 @@
-Command: cmake -G Ninja -B /Users/juote/esp/hello_world/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/juote/.espressif/python_env/idf6.2_py3.14_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False -DCONFIGDEP_ENABLE=True /Users/juote/esp/hello_world
-NOTE: Kconfig parser version: 1
-NOTE: Kconfig defaults policy: use sdkconfig
-NOTE: Status: Finished successfully
