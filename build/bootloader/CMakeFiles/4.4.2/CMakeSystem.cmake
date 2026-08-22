@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Darwin-25.5.0")
+set(CMAKE_HOST_SYSTEM "Darwin-25.6.0")
 set(CMAKE_HOST_SYSTEM_NAME "Darwin")
-set(CMAKE_HOST_SYSTEM_VERSION "25.5.0")
+set(CMAKE_HOST_SYSTEM_VERSION "25.6.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "arm64")
 
-include("/Users/juote/esp/hello_world/build/bootloader/toolchain/toolchain-esp32c3.cmake")
+include("/Users/eldenlord/CLionProjects/suomu_prot/build/bootloader/toolchain/toolchain-esp32c3.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

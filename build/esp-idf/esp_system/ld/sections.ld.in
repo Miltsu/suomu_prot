@@ -674,6 +674,14 @@ ASSERT(((_iram_end - ORIGIN(iram_text_seg)) <= LENGTH(iram_text_seg)),
   .comment 0 : { *(.comment) }
   .note.GNU-stack 0 : { *(.note.GNU-stack) }
   .riscv.attributes 0 : { *(.riscv.attributes) }
+  /**
+   * Linker-generated ELF sections. Must be explicitly placed in linker scripts
+   * when using ld.lld with --orphan-handling=warn/error. GNU ld special-cases
+   * these sections; ld.lld does not.
+   */
+  .symtab 0 : { *(.symtab) }
+  .strtab 0 : { *(.strtab) }
+  .shstrtab 0 : { *(.shstrtab) }
 /**
  * .xt.prop and .xt.lit sections will be used by the debugger and disassembler
  * to get more information about raw data present in the code.
@@ -722,6 +730,8 @@ ASSERT(((_iram_end - ORIGIN(iram_text_seg)) <= LENGTH(iram_text_seg)),
     */
    *(.rela.*)
    *(.fini)
+   *(.fini_array)
+   *(.fini_array.*)
    *(.eh_frame_hdr)
    *(.eh_frame)
   }

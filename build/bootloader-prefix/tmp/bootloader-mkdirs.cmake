@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "/Users/juote/esp/esp-idf/components/bootloader/subproject")
-  file(MAKE_DIRECTORY "/Users/juote/esp/esp-idf/components/bootloader/subproject")
+if(NOT EXISTS "/Users/eldenlord/esp/esp-idf/components/bootloader/subproject")
+  file(MAKE_DIRECTORY "/Users/eldenlord/esp/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/juote/esp/hello_world/build/bootloader"
-  "/Users/juote/esp/hello_world/build/bootloader-prefix"
-  "/Users/juote/esp/hello_world/build/bootloader-prefix/tmp"
-  "/Users/juote/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp"
-  "/Users/juote/esp/hello_world/build/bootloader-prefix/src"
-  "/Users/juote/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/eldenlord/CLionProjects/suomu_prot/build/bootloader"
+  "/Users/eldenlord/CLionProjects/suomu_prot/build/bootloader-prefix"
+  "/Users/eldenlord/CLionProjects/suomu_prot/build/bootloader-prefix/tmp"
+  "/Users/eldenlord/CLionProjects/suomu_prot/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/eldenlord/CLionProjects/suomu_prot/build/bootloader-prefix/src"
+  "/Users/eldenlord/CLionProjects/suomu_prot/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/juote/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/eldenlord/CLionProjects/suomu_prot/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/juote/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/eldenlord/CLionProjects/suomu_prot/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

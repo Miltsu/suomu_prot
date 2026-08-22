@@ -256,7 +256,7 @@
 
 -
     re: "sdmmc_io: sdmmc_io_read_byte: sdmmc_io_rw_direct"
-    hint: "Please verify that card supports IO capabilities. Refer 'IDF_PATH/examples/peripherals/sdio/host/README.md' for more details"
+    hint: "Please verify that card supports IO capabilities. Refer 'IDF_PATH/examples/peripherals/sdio/basic/host/README.md' for more details"
 
 -
     re: "example: Failed to initialize the card \\({}\\). Make sure SD card lines have pull-up resistors in place."
@@ -594,6 +594,19 @@
     hint: "The enum value 'WIFI_BW_HT40' has been removed. Use 'WIFI_BW40' instead."
 
 -
+    re: "undefined reference to `(esp_image_get_metadata|bootloader_sha256_flash_contents|bootloader_sha384_flash_contents)'"
+    hint: "'{}' is provided by the esp_image_verify component, which is not in the build. APIs such as esp_partition_get_sha256() need it. Add esp_image_verify (or app_update, which includes it and provides the OTA APIs) to the calling component's PRIV_REQUIRES or to the project's COMPONENTS list."
+    match_to_output: True
+
+-
+    re: "undefined reference to `esp_secure_boot_check_signature_on_update'"
+    hint: "CONFIG_SECURE_SIGNED_ON_UPDATE_NO_SECURE_BOOT requires the startup signature check from the esp_image_verify component, which is not in the build. Add esp_image_verify (or app_update, which includes it) to the calling component's PRIV_REQUIRES or to the project's COMPONENTS list."
+
+-
+    re: "Mixed libstdc\\+\\+ atomic lock policies detected"
+    hint: "Some object files or prebuilt libraries were compiled with a different _GLIBCXX_HAVE_ATOMIC_LOCK_POLICY setting than the rest of the project. std::shared_ptr reference counting may exhibit undefined behavior. Rebuild all C++ code and libraries with a consistent CONFIG_COMPILER_CXX_ATOMIC_LOCK_POLICY setting."
+
+-
     re: "fatal error: esp_adc_cal.h: No such file or directory"
     hint: "``esp_adc_cal`` component is no longer supported. New adc calibration driver is in ``esp_adc``. Legacy adc calibration driver has been moved into ``esp_adc`` component. To use legacy ``esp_adc_cal`` driver APIs, you should add ``esp_adc`` component to the list of component requirements in CMakeLists.txt. For more information run 'idf.py docs -sp migration-guides/release-5.x/peripherals.html'."
 
@@ -623,6 +636,11 @@
 -
     re: "spi_hal: The clock_speed_hz should less than"
     hint: "When operating in full-duplex mode at high frequencies, the device may not read data correctly.\nTry using IOMUX pins to increase the frequency limit or switch to half-duplex mode.\nNote that the SPI master can only operate at divisors of 80 MHz, and the driver always selects the closest available frequency to your configuration.\nSpecify SPI_DEVICE_NO_DUMMY to bypass this check. This allows higher output speeds but may result in unreliable data reads."
+
+-
+    re: "errno: TLS reference in ([^ ]+\\.a)\\([^)]*\\) mismatches non-TLS definition"
+    hint: "The library '{}' accessed errno as a TLS symbol, which is incompatible with CONFIG_LIBC_NEWLIB=y (errno via __errno()). Contact the library maintainer to rebuild it with the latest ESP-IDF, or pass -D__PICOLIBC_ERRNO_FUNCTION=__errno if the library is built outside ESP-IDF. Alternatively keep CONFIG_LIBC_PICOLIBC=y, which still provides the TLS errno symbol for older prebuilts."
+    match_to_output: True
 
 -
     re: "error: implicit declaration of function '(esp_cache_aligned_malloc|esp_cache_aligned_calloc)'"

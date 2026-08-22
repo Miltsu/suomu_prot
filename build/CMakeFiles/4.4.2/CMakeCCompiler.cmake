@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-gcc")
+set(CMAKE_C_COMPILER "/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "16.1.0")
@@ -20,16 +20,16 @@ set(CMAKE_C_COMPILER_FRONTEND_VARIANT "GNU")
 set(CMAKE_C_COMPILER_APPLE_SYSROOT "")
 set(CMAKE_C_SIMULATE_VERSION "")
 set(CMAKE_C_COMPILER_ARCHITECTURE_ID "riscv32")
-set(CMAKE_C_COMPILER_SYSROOT "/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/../riscv32-esp-elf/usr")
-set(CMAKE_COMPILER_SYSROOT "/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/../riscv32-esp-elf/usr")
+set(CMAKE_C_COMPILER_SYSROOT "/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/../riscv32-esp-elf/usr")
+set(CMAKE_COMPILER_SYSROOT "/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/../riscv32-esp-elf/usr")
 
 
 
 set(CMAKE_AR "riscv32-esp-elf-gcc-ar")
-set(CMAKE_C_COMPILER_AR "/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-gcc-ar")
+set(CMAKE_C_COMPILER_AR "/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-gcc-ar")
 set(CMAKE_RANLIB "riscv32-esp-elf-gcc-ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-gcc-ranlib")
-set(CMAKE_LINKER "/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-ld")
+set(CMAKE_C_COMPILER_RANLIB "/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-gcc-ranlib")
+set(CMAKE_LINKER "/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_C_COMPILER_LINKER "NOTFOUND")
@@ -81,7 +81,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0/include;/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0/include-fixed;/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0/include;/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0/include-fixed;/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;c;nosys;c;gcc")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0;/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc;/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/lib;/Users/juote/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/16.1.0;/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/lib/gcc;/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/lib;/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/riscv32-esp-elf/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

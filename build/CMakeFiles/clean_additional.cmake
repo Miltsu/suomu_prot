@@ -8,7 +8,6 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   "bootloader/bootloader.map"
   "config/sdkconfig.cmake"
   "config/sdkconfig.h"
-  "esp-idf/mbedtls/x509_crt_bundle"
   "flash_app_args"
   "flash_bootloader_args"
   "flash_project_args"
@@ -20,6 +19,5 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   "ldgen_libraries"
   "ldgen_libraries.in"
   "project_elf_src_esp32c3.c"
-  "x509_crt_bundle.S"
   )
 endif()
