@@ -1,8 +1,5 @@
-//
-// Created by Elden Lord on 22.8.2026.
-//
+#pragma once
 
-#ifndef HELLO_WORLD_BLE_H
-#define HELLO_WORLD_BLE_H
-
-#endif //HELLO_WORLD_BLE_H
+void ble_init(const char *device_name);
+void ble_update_distance(float distance_cm);
+void ble_update_temperature(float temp_c);

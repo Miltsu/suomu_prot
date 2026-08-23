@@ -1,7 +1,7 @@
 {
     "version":            "1.3",
     "project_name":       "hello_world",
-    "project_version":    "f541d1a-dirty",
+    "project_version":    "9e68084-dirty",
     "project_path":       "/Users/eldenlord/CLionProjects/suomu_prot",
     "idf_path":           "/Users/eldenlord/esp/esp-idf",
     "build_dir":          "/Users/eldenlord/CLionProjects/suomu_prot/build",
@@ -21,12 +21,12 @@
     "monitor_toolprefix": "riscv32-esp-elf-",
     "c_compiler":         "/Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-gcc",
     "config_environment" : {
-        "COMPONENT_KCONFIGS" : "/Users/eldenlord/esp/esp-idf/components/efuse/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_adc/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_common/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_driver_bitscrambler/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_driver_dma/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_driver_gpio/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_driver_rmt/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_driver_spi/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_hw_support/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_libc/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_mm/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_partition/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_pm/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_psram/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_ringbuf/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_rom/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_security/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_stdio/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_system/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_timer/Kconfig;/Users/eldenlord/esp/esp-idf/components/freertos/Kconfig;/Users/eldenlord/esp/esp-idf/components/hal/Kconfig;/Users/eldenlord/esp/esp-idf/components/heap/Kconfig;/Users/eldenlord/esp/esp-idf/components/log/Kconfig;/Users/eldenlord/esp/esp-idf/components/pthread/Kconfig;/Users/eldenlord/esp/esp-idf/components/soc/Kconfig;/Users/eldenlord/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS" : "/Users/eldenlord/esp/esp-idf/components/bt/Kconfig;/Users/eldenlord/esp/esp-idf/components/efuse/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_adc/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_coex/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_common/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_driver_bitscrambler/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_driver_dma/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_driver_gpio/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_driver_rmt/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_driver_spi/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_driver_uart/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_event/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_gdbstub/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_hw_support/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_libc/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_mm/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_netif/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_partition/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_phy/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_pm/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_psram/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_ringbuf/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_rom/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_security/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_stdio/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_system/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_timer/Kconfig;/Users/eldenlord/esp/esp-idf/components/esp_wifi/Kconfig;/Users/eldenlord/esp/esp-idf/components/freertos/Kconfig;/Users/eldenlord/esp/esp-idf/components/hal/Kconfig;/Users/eldenlord/esp/esp-idf/components/heap/Kconfig;/Users/eldenlord/esp/esp-idf/components/log/Kconfig;/Users/eldenlord/esp/esp-idf/components/lwip/Kconfig;/Users/eldenlord/esp/esp-idf/components/mbedtls/Kconfig;/Users/eldenlord/esp/esp-idf/components/nvs_flash/Kconfig;/Users/eldenlord/esp/esp-idf/components/nvs_sec_provider/Kconfig;/Users/eldenlord/esp/esp-idf/components/pthread/Kconfig;/Users/eldenlord/esp/esp-idf/components/soc/Kconfig;/Users/eldenlord/esp/esp-idf/components/spi_flash/Kconfig;/Users/eldenlord/esp/esp-idf/components/vfs/Kconfig",
         "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/eldenlord/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/eldenlord/esp/esp-idf/components/esp_app_format/Kconfig.projbuild;/Users/eldenlord/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/Users/eldenlord/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/eldenlord/esp/esp-idf/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "esp_libc", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "esp_stdio", "riscv" ],
-    "build_components" : [ "bootloader", "bootloader_support", "cxx", "efuse", "esp_adc", "esp_app_format", "esp_blockdev", "esp_bootloader_format", "esp_common", "esp_driver_bitscrambler", "esp_driver_dma", "esp_driver_gpio", "esp_driver_rmt", "esp_driver_spi", "esp_hal_ana_conv", "esp_hal_clock", "esp_hal_debug_assist", "esp_hal_dma", "esp_hal_gpio", "esp_hal_gpspi", "esp_hal_mspi", "esp_hal_pmu", "esp_hal_regi2c", "esp_hal_rmt", "esp_hal_rtc_timer", "esp_hal_security", "esp_hal_systimer", "esp_hal_timg", "esp_hal_touch_sens", "esp_hal_uart", "esp_hal_usb", "esp_hal_wdt", "esp_hw_support", "esp_libc", "esp_mm", "esp_partition", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_stdio", "esp_system", "esp_timer", "esp_usb_cdc_rom_console", "espressif__led_strip", "esptool_py", "freertos", "hal", "heap", "log", "main", "partition_table", "pthread", "riscv", "soc", "spi_flash", "" ],
-    "build_component_paths" : [ "/Users/eldenlord/esp/esp-idf/components/bootloader", "/Users/eldenlord/esp/esp-idf/components/bootloader_support", "/Users/eldenlord/esp/esp-idf/components/cxx", "/Users/eldenlord/esp/esp-idf/components/efuse", "/Users/eldenlord/esp/esp-idf/components/esp_adc", "/Users/eldenlord/esp/esp-idf/components/esp_app_format", "/Users/eldenlord/esp/esp-idf/components/esp_blockdev", "/Users/eldenlord/esp/esp-idf/components/esp_bootloader_format", "/Users/eldenlord/esp/esp-idf/components/esp_common", "/Users/eldenlord/esp/esp-idf/components/esp_driver_bitscrambler", "/Users/eldenlord/esp/esp-idf/components/esp_driver_dma", "/Users/eldenlord/esp/esp-idf/components/esp_driver_gpio", "/Users/eldenlord/esp/esp-idf/components/esp_driver_rmt", "/Users/eldenlord/esp/esp-idf/components/esp_driver_spi", "/Users/eldenlord/esp/esp-idf/components/esp_hal_ana_conv", "/Users/eldenlord/esp/esp-idf/components/esp_hal_clock", "/Users/eldenlord/esp/esp-idf/components/esp_hal_debug_assist", "/Users/eldenlord/esp/esp-idf/components/esp_hal_dma", "/Users/eldenlord/esp/esp-idf/components/esp_hal_gpio", "/Users/eldenlord/esp/esp-idf/components/esp_hal_gpspi", "/Users/eldenlord/esp/esp-idf/components/esp_hal_mspi", "/Users/eldenlord/esp/esp-idf/components/esp_hal_pmu", "/Users/eldenlord/esp/esp-idf/components/esp_hal_regi2c", "/Users/eldenlord/esp/esp-idf/components/esp_hal_rmt", "/Users/eldenlord/esp/esp-idf/components/esp_hal_rtc_timer", "/Users/eldenlord/esp/esp-idf/components/esp_hal_security", "/Users/eldenlord/esp/esp-idf/components/esp_hal_systimer", "/Users/eldenlord/esp/esp-idf/components/esp_hal_timg", "/Users/eldenlord/esp/esp-idf/components/esp_hal_touch_sens", "/Users/eldenlord/esp/esp-idf/components/esp_hal_uart", "/Users/eldenlord/esp/esp-idf/components/esp_hal_usb", "/Users/eldenlord/esp/esp-idf/components/esp_hal_wdt", "/Users/eldenlord/esp/esp-idf/components/esp_hw_support", "/Users/eldenlord/esp/esp-idf/components/esp_libc", "/Users/eldenlord/esp/esp-idf/components/esp_mm", "/Users/eldenlord/esp/esp-idf/components/esp_partition", "/Users/eldenlord/esp/esp-idf/components/esp_pm", "/Users/eldenlord/esp/esp-idf/components/esp_psram", "/Users/eldenlord/esp/esp-idf/components/esp_ringbuf", "/Users/eldenlord/esp/esp-idf/components/esp_rom", "/Users/eldenlord/esp/esp-idf/components/esp_security", "/Users/eldenlord/esp/esp-idf/components/esp_stdio", "/Users/eldenlord/esp/esp-idf/components/esp_system", "/Users/eldenlord/esp/esp-idf/components/esp_timer", "/Users/eldenlord/esp/esp-idf/components/esp_usb_cdc_rom_console", "/Users/eldenlord/CLionProjects/suomu_prot/managed_components/espressif__led_strip", "/Users/eldenlord/esp/esp-idf/components/esptool_py", "/Users/eldenlord/esp/esp-idf/components/freertos", "/Users/eldenlord/esp/esp-idf/components/hal", "/Users/eldenlord/esp/esp-idf/components/heap", "/Users/eldenlord/esp/esp-idf/components/log", "/Users/eldenlord/CLionProjects/suomu_prot/main", "/Users/eldenlord/esp/esp-idf/components/partition_table", "/Users/eldenlord/esp/esp-idf/components/pthread", "/Users/eldenlord/esp/esp-idf/components/riscv", "/Users/eldenlord/esp/esp-idf/components/soc", "/Users/eldenlord/esp/esp-idf/components/spi_flash", "" ],
+    "build_components" : [ "bootloader", "bootloader_support", "bt", "cxx", "efuse", "epaper", "esp_adc", "esp_app_format", "esp_blockdev", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_bitscrambler", "esp_driver_dma", "esp_driver_gpio", "esp_driver_rmt", "esp_driver_spi", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_event", "esp_gdbstub", "esp_hal_ana_conv", "esp_hal_clock", "esp_hal_debug_assist", "esp_hal_dma", "esp_hal_gpio", "esp_hal_gpspi", "esp_hal_mspi", "esp_hal_pmu", "esp_hal_regi2c", "esp_hal_rmt", "esp_hal_rtc_timer", "esp_hal_security", "esp_hal_systimer", "esp_hal_timg", "esp_hal_touch_sens", "esp_hal_uart", "esp_hal_usb", "esp_hal_wdt", "esp_hw_support", "esp_libc", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_stdio", "esp_system", "esp_timer", "esp_usb_cdc_rom_console", "esp_wifi", "espressif__led_strip", "esptool_py", "freertos", "hal", "heap", "log", "lwip", "main", "mbedtls", "nvs_flash", "nvs_sec_provider", "partition_table", "pthread", "riscv", "soc", "spi_flash", "vfs", "wpa_supplicant", "" ],
+    "build_component_paths" : [ "/Users/eldenlord/esp/esp-idf/components/bootloader", "/Users/eldenlord/esp/esp-idf/components/bootloader_support", "/Users/eldenlord/esp/esp-idf/components/bt", "/Users/eldenlord/esp/esp-idf/components/cxx", "/Users/eldenlord/esp/esp-idf/components/efuse", "/Users/eldenlord/CLionProjects/suomu_prot/components/epaper", "/Users/eldenlord/esp/esp-idf/components/esp_adc", "/Users/eldenlord/esp/esp-idf/components/esp_app_format", "/Users/eldenlord/esp/esp-idf/components/esp_blockdev", "/Users/eldenlord/esp/esp-idf/components/esp_bootloader_format", "/Users/eldenlord/esp/esp-idf/components/esp_coex", "/Users/eldenlord/esp/esp-idf/components/esp_common", "/Users/eldenlord/esp/esp-idf/components/esp_driver_bitscrambler", "/Users/eldenlord/esp/esp-idf/components/esp_driver_dma", "/Users/eldenlord/esp/esp-idf/components/esp_driver_gpio", "/Users/eldenlord/esp/esp-idf/components/esp_driver_rmt", "/Users/eldenlord/esp/esp-idf/components/esp_driver_spi", "/Users/eldenlord/esp/esp-idf/components/esp_driver_uart", "/Users/eldenlord/esp/esp-idf/components/esp_driver_usb_serial_jtag", "/Users/eldenlord/esp/esp-idf/components/esp_event", "/Users/eldenlord/esp/esp-idf/components/esp_gdbstub", "/Users/eldenlord/esp/esp-idf/components/esp_hal_ana_conv", "/Users/eldenlord/esp/esp-idf/components/esp_hal_clock", "/Users/eldenlord/esp/esp-idf/components/esp_hal_debug_assist", "/Users/eldenlord/esp/esp-idf/components/esp_hal_dma", "/Users/eldenlord/esp/esp-idf/components/esp_hal_gpio", "/Users/eldenlord/esp/esp-idf/components/esp_hal_gpspi", "/Users/eldenlord/esp/esp-idf/components/esp_hal_mspi", "/Users/eldenlord/esp/esp-idf/components/esp_hal_pmu", "/Users/eldenlord/esp/esp-idf/components/esp_hal_regi2c", "/Users/eldenlord/esp/esp-idf/components/esp_hal_rmt", "/Users/eldenlord/esp/esp-idf/components/esp_hal_rtc_timer", "/Users/eldenlord/esp/esp-idf/components/esp_hal_security", "/Users/eldenlord/esp/esp-idf/components/esp_hal_systimer", "/Users/eldenlord/esp/esp-idf/components/esp_hal_timg", "/Users/eldenlord/esp/esp-idf/components/esp_hal_touch_sens", "/Users/eldenlord/esp/esp-idf/components/esp_hal_uart", "/Users/eldenlord/esp/esp-idf/components/esp_hal_usb", "/Users/eldenlord/esp/esp-idf/components/esp_hal_wdt", "/Users/eldenlord/esp/esp-idf/components/esp_hw_support", "/Users/eldenlord/esp/esp-idf/components/esp_libc", "/Users/eldenlord/esp/esp-idf/components/esp_mm", "/Users/eldenlord/esp/esp-idf/components/esp_netif", "/Users/eldenlord/esp/esp-idf/components/esp_netif_stack", "/Users/eldenlord/esp/esp-idf/components/esp_partition", "/Users/eldenlord/esp/esp-idf/components/esp_phy", "/Users/eldenlord/esp/esp-idf/components/esp_pm", "/Users/eldenlord/esp/esp-idf/components/esp_psram", "/Users/eldenlord/esp/esp-idf/components/esp_ringbuf", "/Users/eldenlord/esp/esp-idf/components/esp_rom", "/Users/eldenlord/esp/esp-idf/components/esp_security", "/Users/eldenlord/esp/esp-idf/components/esp_stdio", "/Users/eldenlord/esp/esp-idf/components/esp_system", "/Users/eldenlord/esp/esp-idf/components/esp_timer", "/Users/eldenlord/esp/esp-idf/components/esp_usb_cdc_rom_console", "/Users/eldenlord/esp/esp-idf/components/esp_wifi", "/Users/eldenlord/CLionProjects/suomu_prot/managed_components/espressif__led_strip", "/Users/eldenlord/esp/esp-idf/components/esptool_py", "/Users/eldenlord/esp/esp-idf/components/freertos", "/Users/eldenlord/esp/esp-idf/components/hal", "/Users/eldenlord/esp/esp-idf/components/heap", "/Users/eldenlord/esp/esp-idf/components/log", "/Users/eldenlord/esp/esp-idf/components/lwip", "/Users/eldenlord/CLionProjects/suomu_prot/main", "/Users/eldenlord/esp/esp-idf/components/mbedtls", "/Users/eldenlord/esp/esp-idf/components/nvs_flash", "/Users/eldenlord/esp/esp-idf/components/nvs_sec_provider", "/Users/eldenlord/esp/esp-idf/components/partition_table", "/Users/eldenlord/esp/esp-idf/components/pthread", "/Users/eldenlord/esp/esp-idf/components/riscv", "/Users/eldenlord/esp/esp-idf/components/soc", "/Users/eldenlord/esp/esp-idf/components/spi_flash", "/Users/eldenlord/esp/esp-idf/components/vfs", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant", "" ],
     "build_component_info" : {
         "bootloader": {
             "alias": "idf::bootloader",
@@ -58,6 +58,21 @@
             "sources": [ "/Users/eldenlord/esp/esp-idf/components/bootloader_support/src/bootloader_common.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/src/bootloader_mem.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/src/bootloader_random.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/src/secure_boot.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/src/bootloader_random_esp32c3.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32c3.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/src/bootloader_utility.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/src/flash_partitions.c", "/Users/eldenlord/esp/esp-idf/components/bootloader_support/src/esp32c3/secure_boot_secure_features.c", "/Users/eldenlord/CLionProjects/suomu_prot/build/esp_err_codes/bootloader_support_esp_err_codes.c" ],
             "include_dirs": [ "include", "bootloader_flash/include" ]
         },
+        "bt": {
+            "alias": "idf::bt",
+            "target": "___idf_bt",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/bt",
+            "type": "LIBRARY",
+            "lib": "__idf_bt",
+            "reqs": [ "esp_timer", "esp_wifi", "esp_driver_spi", "esp_driver_gpio" ],
+            "priv_reqs": [ "nvs_flash", "soc", "esp_hw_support", "esp_pm", "esp_phy", "esp_coex", "mbedtls", "esp_driver_uart", "vfs", "esp_ringbuf", "esp_gdbstub", "esp_security", "esp_event" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/bt/libbt.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/bt/common/btc/core/btc_alarm.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/api/esp_blufi_api.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/hci_log/bt_hci_log.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/btc/core/btc_manage.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/hci_log/bt_hci_log_insights.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/btc/core/btc_task.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/btc/profile/esp/blufi/blufi_prf.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/btc/profile/esp/blufi/blufi_protocol.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/alarm.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/allocator.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/buffer.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/config.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/fixed_queue.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/pkt_queue.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/fixed_pkt_queue.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/future.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/hash_functions.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/hash_map.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/list.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/mutex.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/thread.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/osi.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/semaphore.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/ble_log/deprecated/ble_log_spi_out.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/osal/src/bt_osal_freertos.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/utils.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/sha256.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/ecc.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/ctr_prng.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/ctr_mode.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/aes_decrypt.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/aes_encrypt.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/ccm_mode.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/ecc_dsa.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/cmac_mode.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/ecc_dh.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/hmac_prng.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/ecc_platform_specific.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/hmac.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/src/cbc_mode.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/port/esp_tinycrypt_port.c", "/Users/eldenlord/esp/esp-idf/components/bt/controller/esp32c3/bt.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/transport/src/transport.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/util/src/addr.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_cs.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_conn.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_store_util.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_sm.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_id.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_att_svr.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_ibeacon.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_atomic.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_sm_alg.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_stop.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_att.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_ead.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_aes_ccm.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_gattc.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_store.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_cfg.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_att_clt.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_att_cmd.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_log.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_eddystone.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_startup.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_gap.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_sm_cmd.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_uuid.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_flow.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_l2cap.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_sm_sc.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_misc.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_gatts.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_adv.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_hci.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_hs_resolv.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_gattc_cache.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/src/ble_eatt.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/src/nimble_port.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/port/src/nvs_port.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/port/src/esp_nimble_mem.c", "/Users/eldenlord/esp/esp-idf/components/bt/common/btc/profile/esp/blufi/nimble_host/esp_blufi.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/esp-hci/src/esp_nimble_hci.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/src/endian.c", "/Users/eldenlord/esp/esp-idf/components/bt/porting/mem/os_mempool.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/src/mem.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/src/os_mbuf.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/src/os_msys_init.c", "/Users/eldenlord/esp/esp-idf/components/bt/porting/mem/bt_osi_mem.c", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c" ],
+            "include_dirs": [ "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/api/include/api", "/Users/eldenlord/esp/esp-idf/components/bt/common/btc/profile/esp/blufi/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/btc/profile/esp/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/hci_log/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/ble_log/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/ble_log/deprecated/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/osal/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/port", "/Users/eldenlord/esp/esp-idf/components/bt/controller/../include/esp32c3/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/esp-hci/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ans/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/bas/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/dis/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/gap/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/gatt/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/hr/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/htp/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ias/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ipss/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/lls/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/prox/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/cts/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/tps/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/hid/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/sps/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/cte/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/util/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/store/ram/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/store/config/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ras/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/port/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/../../porting/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/transport/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/porting/npl/freertos/include", "/Users/eldenlord/esp/esp-idf/components/bt/ble_profiles/common/include" ]
+        },
         "cxx": {
             "alias": "idf::cxx",
             "target": "___idf_cxx",
@@ -87,6 +102,21 @@
             "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/efuse/libefuse.a",
             "sources": [ "/Users/eldenlord/esp/esp-idf/components/efuse/esp32c3/esp_efuse_table.c", "/Users/eldenlord/esp/esp-idf/components/efuse/esp32c3/esp_efuse_fields.c", "/Users/eldenlord/esp/esp-idf/components/efuse/esp32c3/esp_efuse_rtc_calib.c", "/Users/eldenlord/esp/esp-idf/components/efuse/esp32c3/esp_efuse_utility.c", "/Users/eldenlord/esp/esp-idf/components/efuse/src/esp_efuse_api.c", "/Users/eldenlord/esp/esp-idf/components/efuse/src/esp_efuse_dump.c", "/Users/eldenlord/esp/esp-idf/components/efuse/src/esp_efuse_fields.c", "/Users/eldenlord/esp/esp-idf/components/efuse/src/esp_efuse_utility.c", "/Users/eldenlord/esp/esp-idf/components/efuse/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c", "/Users/eldenlord/esp/esp-idf/components/efuse/src/esp_efuse_startup.c", "/Users/eldenlord/CLionProjects/suomu_prot/build/esp_err_codes/efuse_esp_err_codes.c" ],
             "include_dirs": [ "include", "esp32c3/include" ]
+        },
+        "epaper": {
+            "alias": "idf::epaper",
+            "target": "___idf_epaper",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/CLionProjects/suomu_prot/components/epaper",
+            "type": "LIBRARY",
+            "lib": "__idf_epaper",
+            "reqs": [ "esp_driver_spi", "esp_driver_gpio" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/epaper/libepaper.a",
+            "sources": [ "/Users/eldenlord/CLionProjects/suomu_prot/components/epaper/epd1in54_V2.cpp", "/Users/eldenlord/CLionProjects/suomu_prot/components/epaper/epdif.cpp", "/Users/eldenlord/CLionProjects/suomu_prot/components/epaper/epdpaint.cpp", "/Users/eldenlord/CLionProjects/suomu_prot/components/epaper/font8.c", "/Users/eldenlord/CLionProjects/suomu_prot/components/epaper/font12.c", "/Users/eldenlord/CLionProjects/suomu_prot/components/epaper/font16.c", "/Users/eldenlord/CLionProjects/suomu_prot/components/epaper/font20.c", "/Users/eldenlord/CLionProjects/suomu_prot/components/epaper/font24.c" ],
+            "include_dirs": [ "include" ]
         },
         "esp_adc": {
             "alias": "idf::esp_adc",
@@ -146,6 +176,21 @@
             "managed_priv_reqs": [],
             "file": "",
             "sources": [],
+            "include_dirs": [ "include" ]
+        },
+        "esp_coex": {
+            "alias": "idf::esp_coex",
+            "target": "___idf_esp_coex",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/esp_coex",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_coex",
+            "reqs": [],
+            "priv_reqs": [ "esp_timer", "esp_driver_gpio", "esp_phy" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_coex/libesp_coex.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_coex/src/coexist.c", "/Users/eldenlord/esp/esp-idf/components/esp_coex/src/lib_printf.c", "/Users/eldenlord/esp/esp-idf/components/esp_coex/esp32c3/esp_coex_adapter.c", "/Users/eldenlord/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c", "/Users/eldenlord/esp/esp-idf/components/esp_coex/src/coexist_debug.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_common": {
@@ -236,6 +281,66 @@
             "managed_priv_reqs": [],
             "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
             "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_common.c", "/Users/eldenlord/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c", "/Users/eldenlord/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave.c", "/Users/eldenlord/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave_hd.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "esp_driver_uart": {
+            "alias": "idf::esp_driver_uart",
+            "target": "___idf_esp_driver_uart",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/esp_driver_uart",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_driver_uart",
+            "reqs": [ "esp_hal_uart" ],
+            "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_driver_dma", "esp_ringbuf", "esp_mm", "esp_psram" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_driver_uart/src/uart.c", "/Users/eldenlord/esp/esp-idf/components/esp_driver_uart/src/uart_wakeup.c", "/Users/eldenlord/esp/esp-idf/components/esp_driver_uart/src/uhci.c", "/Users/eldenlord/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "esp_driver_usb_serial_jtag": {
+            "alias": "idf::esp_driver_usb_serial_jtag",
+            "target": "___idf_esp_driver_usb_serial_jtag",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/esp_driver_usb_serial_jtag",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_driver_usb_serial_jtag",
+            "reqs": [],
+            "priv_reqs": [ "esp_driver_gpio", "esp_ringbuf", "esp_pm", "esp_timer", "esp_hal_usb" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag.c", "/Users/eldenlord/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c", "/Users/eldenlord/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "esp_event": {
+            "alias": "idf::esp_event",
+            "target": "___idf_esp_event",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/esp_event",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_event",
+            "reqs": [ "log", "esp_common", "freertos" ],
+            "priv_reqs": [ "esp_timer" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_event/libesp_event.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_event/default_event_loop.c", "/Users/eldenlord/esp/esp-idf/components/esp_event/esp_event.c", "/Users/eldenlord/esp/esp-idf/components/esp_event/esp_event_private.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "esp_gdbstub": {
+            "alias": "idf::esp_gdbstub",
+            "target": "___idf_esp_gdbstub",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/esp_gdbstub",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_gdbstub",
+            "reqs": [ "freertos" ],
+            "priv_reqs": [ "esp_hal_wdt", "esp_hal_uart", "esp_system" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_gdbstub/libesp_gdbstub.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_gdbstub/src/gdbstub.c", "/Users/eldenlord/esp/esp-idf/components/esp_gdbstub/src/gdbstub_transport.c", "/Users/eldenlord/esp/esp-idf/components/esp_gdbstub/src/packet.c", "/Users/eldenlord/esp/esp-idf/components/esp_gdbstub/src/port/riscv/gdbstub_riscv.c", "/Users/eldenlord/esp/esp-idf/components/esp_gdbstub/src/port/riscv/rv_decode.c", "/Users/eldenlord/esp/esp-idf/components/esp_gdbstub/src/port/riscv/target_xml.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_hal_ana_conv": {
@@ -553,6 +658,36 @@
             "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_mm/esp_mmu_map.c", "/Users/eldenlord/esp/esp-idf/components/esp_mm/port/esp32c3/ext_mem_layout.c", "/Users/eldenlord/esp/esp-idf/components/esp_mm/esp_cache_msync.c", "/Users/eldenlord/esp/esp-idf/components/esp_mm/esp_cache_utils.c" ],
             "include_dirs": [ "include" ]
         },
+        "esp_netif": {
+            "alias": "idf::esp_netif",
+            "target": "___idf_esp_netif",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/esp_netif",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_netif",
+            "reqs": [ "esp_event" ],
+            "priv_reqs": [ "esp_netif_stack" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_netif/libesp_netif.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_netif/esp_netif_handlers.c", "/Users/eldenlord/esp/esp-idf/components/esp_netif/esp_netif_objects.c", "/Users/eldenlord/esp/esp-idf/components/esp_netif/esp_netif_defaults.c", "/Users/eldenlord/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c", "/Users/eldenlord/esp/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c", "/Users/eldenlord/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c", "/Users/eldenlord/esp/esp-idf/components/esp_netif/lwip/netif/wlanif.c", "/Users/eldenlord/esp/esp-idf/components/esp_netif/lwip/netif/ethernetif.c", "/Users/eldenlord/esp/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c", "/Users/eldenlord/CLionProjects/suomu_prot/build/esp_err_codes/esp_netif_esp_err_codes.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "esp_netif_stack": {
+            "alias": "idf::esp_netif_stack",
+            "target": "___idf_esp_netif_stack",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/esp_netif_stack",
+            "type": "CONFIG_ONLY",
+            "lib": "__idf_esp_netif_stack",
+            "reqs": [ "lwip" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "",
+            "sources": [],
+            "include_dirs": []
+        },
         "esp_partition": {
             "alias": "idf::esp_partition",
             "target": "___idf_esp_partition",
@@ -567,6 +702,21 @@
             "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_partition/libesp_partition.a",
             "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_partition/partition.c", "/Users/eldenlord/esp/esp-idf/components/esp_partition/partition_target.c" ],
             "include_dirs": [ "include" ]
+        },
+        "esp_phy": {
+            "alias": "idf::esp_phy",
+            "target": "___idf_esp_phy",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/esp_phy",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_phy",
+            "reqs": [],
+            "priv_reqs": [ "nvs_flash", "esp_driver_gpio", "esp_hal_ana_conv", "efuse", "esp_timer", "esp_wifi", "esptool_py" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_phy/libesp_phy.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_phy/src/phy_override.c", "/Users/eldenlord/esp/esp-idf/components/esp_phy/src/lib_printf.c", "/Users/eldenlord/esp/esp-idf/components/esp_phy/src/phy_common.c", "/Users/eldenlord/esp/esp-idf/components/esp_phy/src/phy_init.c", "/Users/eldenlord/esp/esp-idf/components/esp_phy/esp32c3/phy_init_data.c", "/Users/eldenlord/esp/esp-idf/components/esp_phy/src/btbb_init.c" ],
+            "include_dirs": [ "include", "esp32c3/include" ]
         },
         "esp_pm": {
             "alias": "idf::esp_pm",
@@ -655,7 +805,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_stdio/libesp_stdio.a",
-            "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_stdio/stdio_port.c", "/Users/eldenlord/esp/esp-idf/components/esp_stdio/stdio_simple.c", "/Users/eldenlord/esp/esp-idf/components/esp_stdio/stdio_syscalls_simple.c" ],
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_stdio/stdio_port.c", "/Users/eldenlord/esp/esp-idf/components/esp_stdio/stdio_simple.c", "/Users/eldenlord/esp/esp-idf/components/esp_stdio/stdio_syscalls_simple.c", "/Users/eldenlord/esp/esp-idf/components/esp_stdio/stdio_vfs.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_system": {
@@ -702,6 +852,21 @@
             "file": "",
             "sources": [],
             "include_dirs": [ "include" ]
+        },
+        "esp_wifi": {
+            "alias": "idf::esp_wifi",
+            "target": "___idf_esp_wifi",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/esp_wifi",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_wifi",
+            "reqs": [ "esp_event", "esp_phy", "esp_netif" ],
+            "priv_reqs": [ "esp_pm", "esp_timer", "nvs_flash", "efuse", "wpa_supplicant", "hal", "lwip", "esp_coex" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_wifi/libesp_wifi.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/esp_wifi/src/lib_printf.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/src/mesh_event.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/src/smartconfig.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/src/wifi_init.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/src/wifi_default.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/src/wifi_netif.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/src/ftm_load_calibration.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/esp32c3/esp_adapter.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/regulatory/esp_wifi_regulatory.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/src/smartconfig_ack.c", "/Users/eldenlord/CLionProjects/suomu_prot/build/esp_err_codes/esp_wifi_esp_err_codes.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/remote/esp_wifi_remote_weak.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/remote/esp_eap_client_remote_weak.c", "/Users/eldenlord/esp/esp-idf/components/esp_wifi/remote/esp_wifi_remote_net2.c" ],
+            "include_dirs": [ "include", "include/local", "wifi_apps/include", "wifi_apps/nan_app/include" ]
         },
         "espressif__led_strip": {
             "alias": "idf::espressif__led_strip",
@@ -793,6 +958,21 @@
             "sources": [ "/Users/eldenlord/esp/esp-idf/components/log/src/os/log_timestamp.c", "/Users/eldenlord/esp/esp-idf/components/log/src/log_timestamp_common.c", "/Users/eldenlord/esp/esp-idf/components/log/src/os/log_lock.c", "/Users/eldenlord/esp/esp-idf/components/log/src/buffer/log_buffers.c", "/Users/eldenlord/esp/esp-idf/components/log/src/os/util.c", "/Users/eldenlord/esp/esp-idf/components/log/src/util.c", "/Users/eldenlord/esp/esp-idf/components/log/src/log_format_text.c", "/Users/eldenlord/esp/esp-idf/components/log/src/log_print.c", "/Users/eldenlord/esp/esp-idf/components/log/src/log.c", "/Users/eldenlord/esp/esp-idf/components/log/src/os/log_write.c", "/Users/eldenlord/esp/esp-idf/components/log/src/log_level/log_level.c", "/Users/eldenlord/esp/esp-idf/components/log/src/log_level/tag_log_level/tag_log_level.c", "/Users/eldenlord/esp/esp-idf/components/log/src/log_level/tag_log_level/linked_list/log_linked_list.c", "/Users/eldenlord/esp/esp-idf/components/log/src/log_level/tag_log_level/cache/log_binary_heap.c" ],
             "include_dirs": [ "include" ]
         },
+        "lwip": {
+            "alias": "idf::lwip",
+            "target": "___idf_lwip",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/lwip",
+            "type": "LIBRARY",
+            "lib": "__idf_lwip",
+            "reqs": [],
+            "priv_reqs": [ "vfs" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/lwip/liblwip.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/lwip/apps/sntp/sntp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/api/api_msg.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/api/err.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/api/if_api.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/api/netbuf.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/api/netdb.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/api/netifapi.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/api/sockets.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/apps/sntp/sntp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/apps/netbiosns/netbiosns.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/def.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/dns.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/inet_chksum.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/init.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ip.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/mem.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/memp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/netif.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/pbuf.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/raw.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/stats.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/sys.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/tcp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/tcp_in.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/tcp_out.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/timeouts.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/udp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv4/autoip.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv4/dhcp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv4/etharp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv4/icmp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv4/igmp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv4/ip4.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_napt.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_addr.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_frag.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv6/dhcp6.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv6/ethip6.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv6/icmp6.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv6/inet6.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv6/ip6.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_addr.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_frag.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv6/mld6.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/core/ipv6/nd6.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ethernet.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/bridgeif.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/bridgeif_fdb.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/slipif.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/auth.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ccp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/chap-md5.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/chap-new.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/chap_ms.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/demand.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/eap.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ecp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/eui64.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/fsm.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ipcp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ipv6cp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/lcp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/magic.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/mppe.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/multilink.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ppp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppapi.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppcrypt.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppoe.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppol2tp.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppos.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/upap.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/utils.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/vj.c", "/Users/eldenlord/esp/esp-idf/components/lwip/port/hooks/tcp_isn_default.c", "/Users/eldenlord/esp/esp-idf/components/lwip/port/hooks/lwip_default_hooks.c", "/Users/eldenlord/esp/esp-idf/components/lwip/port/debug/lwip_debug.c", "/Users/eldenlord/esp/esp-idf/components/lwip/port/sockets_ext.c", "/Users/eldenlord/esp/esp-idf/components/lwip/port/freertos/sys_arch.c", "/Users/eldenlord/esp/esp-idf/components/lwip/port/if_index.c", "/Users/eldenlord/esp/esp-idf/components/lwip/port/acd_dhcp_check.c", "/Users/eldenlord/esp/esp-idf/components/lwip/port/vfs_lwip.c", "/Users/eldenlord/esp/esp-idf/components/lwip/apps/ping/ping_sock.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/arc4.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/des.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md4.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md5.c", "/Users/eldenlord/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/sha1.c", "/Users/eldenlord/esp/esp-idf/components/lwip/apps/dhcpserver/dhcpserver.c" ],
+            "include_dirs": [ "include", "include/apps", "lwip/src/include", "port/include", "port/freertos/include/", "port/esp32xx/include", "port/esp32xx/include/arch", "port/esp32xx/include/sys" ]
+        },
         "main": {
             "alias": "idf::main",
             "target": "___idf_main",
@@ -801,12 +981,57 @@
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [],
-            "priv_reqs": [ "spi_flash", "esp_driver_gpio", "espressif__led_strip", "esp_adc", "esp_timer" ],
+            "priv_reqs": [ "spi_flash", "esp_driver_gpio", "espressif__led_strip", "esp_adc", "esp_timer", "bt", "epaper" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__led_strip" ],
             "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/main/libmain.a",
-            "sources": [ "/Users/eldenlord/CLionProjects/suomu_prot/main/hello_world_main.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/jsn_sr04t.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/ntc_thermistor.c" ],
+            "sources": [ "/Users/eldenlord/CLionProjects/suomu_prot/main/hello_world_main.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/jsn_sr04t.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/ntc_thermistor.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/ble.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/display.cpp" ],
             "include_dirs": [ "." ]
+        },
+        "mbedtls": {
+            "alias": "idf::mbedtls",
+            "target": "___idf_mbedtls",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/mbedtls",
+            "type": "LIBRARY",
+            "lib": "__idf_mbedtls",
+            "reqs": [ "esp_security", "esp_hal_security" ],
+            "priv_reqs": [ "soc", "esp_hw_support", "esp_pm", "esp_driver_dma" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/mbedtls/libmbedtls.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/mbedtls/port/esp_mem.c", "/Users/eldenlord/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/esp_psa_key_file.c", "/Users/eldenlord/esp/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "/Users/eldenlord/CLionProjects/suomu_prot/build/x509_crt_bundle.S" ],
+            "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "mbedtls/tf-psa-crypto/core", "mbedtls/tf-psa-crypto/drivers/builtin/src/", "mbedtls/tf-psa-crypto/extras", "esp_crt_bundle/include", "/Users/eldenlord/esp/esp-idf/components/mbedtls/port/psa_driver/include", "/Users/eldenlord/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/include" ]
+        },
+        "nvs_flash": {
+            "alias": "idf::nvs_flash",
+            "target": "___idf_nvs_flash",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/nvs_flash",
+            "type": "LIBRARY",
+            "lib": "__idf_nvs_flash",
+            "reqs": [ "esp_partition", "esp_blockdev" ],
+            "priv_reqs": [ "spi_flash", "esp_libc", "esptool_py", "nvs_sec_provider", "mbedtls" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/nvs_flash/libnvs_flash.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_cxx_api.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_handle_simple.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_handle_locked.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_partition.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_partition_lookup.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_types.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_platform.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_bootloader.c", "/Users/eldenlord/CLionProjects/suomu_prot/build/esp_err_codes/nvs_flash_esp_err_codes.c", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_encrypted_partition.cpp", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_bootloader_aes.c", "/Users/eldenlord/esp/esp-idf/components/nvs_flash/src/nvs_bootloader_xts_aes.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "nvs_sec_provider": {
+            "alias": "idf::nvs_sec_provider",
+            "target": "___idf_nvs_sec_provider",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/nvs_sec_provider",
+            "type": "LIBRARY",
+            "lib": "__idf_nvs_sec_provider",
+            "reqs": [ "esp_security" ],
+            "priv_reqs": [ "bootloader_support", "efuse", "esp_partition", "nvs_flash" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/nvs_sec_provider/libnvs_sec_provider.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c", "/Users/eldenlord/CLionProjects/suomu_prot/build/esp_err_codes/nvs_sec_provider_esp_err_codes.c" ],
+            "include_dirs": [ "include" ]
         },
         "partition_table": {
             "alias": "idf::partition_table",
@@ -882,6 +1107,36 @@
             "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/spi_flash/libspi_flash.a",
             "sources": [ "/Users/eldenlord/esp/esp-idf/components/spi_flash/flash_brownout_hook.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_chip_th.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/memspi_host_driver.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_blockdev.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/cache_utils.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/flash_mmap.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/flash_ops.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_wrap.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/esp_flash_api.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/esp_flash_spi_init.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "/Users/eldenlord/esp/esp-idf/components/spi_flash/spi_flash_os_func_noos.c", "/Users/eldenlord/CLionProjects/suomu_prot/build/esp_err_codes/spi_flash_esp_err_codes.c" ],
             "include_dirs": [ "include" ]
+        },
+        "vfs": {
+            "alias": "idf::vfs",
+            "target": "___idf_vfs",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/vfs",
+            "type": "LIBRARY",
+            "lib": "__idf_vfs",
+            "reqs": [],
+            "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_usb_cdc_rom_console" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/vfs/libvfs.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/vfs/vfs.c", "/Users/eldenlord/esp/esp-idf/components/vfs/vfs_calls.c", "/Users/eldenlord/esp/esp-idf/components/vfs/vfs_eventfd.c", "/Users/eldenlord/esp/esp-idf/components/vfs/vfs_semihost.c", "/Users/eldenlord/esp/esp-idf/components/vfs/nullfs.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "wpa_supplicant": {
+            "alias": "idf::wpa_supplicant",
+            "target": "___idf_wpa_supplicant",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant",
+            "type": "LIBRARY",
+            "lib": "__idf_wpa_supplicant",
+            "reqs": [],
+            "priv_reqs": [ "mbedtls", "esp_timer", "esp_wifi" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
+            "sources": [ "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/port/eloop.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/common/sae.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/utils/base64.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/utils/common.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/utils/json.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/wps/wps.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_nan_supplicant.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpsk.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "/Users/eldenlord/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c", "/Users/eldenlord/CLionProjects/suomu_prot/build/esp_err_codes/wpa_supplicant_esp_err_codes.c" ],
+            "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
         }
     },
     "all_component_info" : {
@@ -948,7 +1203,7 @@
             "priv_reqs": [ "nvs_flash", "soc", "esp_hw_support", "esp_pm", "esp_phy", "esp_coex", "mbedtls", "esp_driver_uart", "vfs", "esp_ringbuf", "esp_gdbstub", "esp_security", "esp_event" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": []
+            "include_dirs": [ "/Users/eldenlord/esp/esp-idf/components/bt/common/osi/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/api/include/api", "/Users/eldenlord/esp/esp-idf/components/bt/common/btc/profile/esp/blufi/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/btc/profile/esp/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/hci_log/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/ble_log/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/ble_log/deprecated/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/osal/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/include", "/Users/eldenlord/esp/esp-idf/components/bt/common/tinycrypt/port", "/Users/eldenlord/esp/esp-idf/components/bt/controller/../include/esp32c3/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/esp-hci/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ans/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/bas/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/dis/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/gap/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/gatt/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/hr/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/htp/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ias/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ipss/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/lls/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/prox/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/cts/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/tps/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/hid/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/sps/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/cte/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/util/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/store/ram/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/store/config/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ras/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/port/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/../../porting/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/nimble/transport/include", "/Users/eldenlord/esp/esp-idf/components/bt/host/nimble/nimble/porting/npl/freertos/include", "/Users/eldenlord/esp/esp-idf/components/bt/ble_profiles/common/include" ]
         },
         "cmock": {
             "alias": "idf::cmock",
@@ -2534,7 +2789,7 @@
             "priv_reqs": [ "vfs" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": []
+            "include_dirs": [ "include", "include/apps", "lwip/src/include", "port/include", "port/freertos/include/", "port/esp32xx/include", "port/esp32xx/include/arch", "port/esp32xx/include/sys" ]
         },
         "mbedtls": {
             "alias": "idf::mbedtls",
@@ -2547,7 +2802,7 @@
             "priv_reqs": [ "soc", "esp_hw_support", "esp_pm", "esp_driver_dma" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "mbedtls/tf-psa-crypto/core", "mbedtls/tf-psa-crypto/drivers/builtin/src/", "mbedtls/tf-psa-crypto/extras", "/Users/eldenlord/esp/esp-idf/components/mbedtls/port/psa_driver/include", "/Users/eldenlord/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/include" ]
+            "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "mbedtls/tf-psa-crypto/core", "mbedtls/tf-psa-crypto/drivers/builtin/src/", "mbedtls/tf-psa-crypto/extras", "esp_crt_bundle/include", "/Users/eldenlord/esp/esp-idf/components/mbedtls/port/psa_driver/include", "/Users/eldenlord/esp/esp-idf/components/mbedtls/port/psa_crypto_storage/include" ]
         },
         "nvs_flash": {
             "alias": "idf::nvs_flash",
@@ -2830,10 +3085,23 @@
             "source": "project_components",
             "lib": "__idf_main",
             "reqs": [],
-            "priv_reqs": [ "spi_flash", "esp_driver_gpio", "espressif__led_strip", "esp_adc", "esp_timer" ],
+            "priv_reqs": [ "spi_flash", "esp_driver_gpio", "espressif__led_strip", "esp_adc", "esp_timer", "bt", "epaper" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__led_strip" ],
             "include_dirs": [ "." ]
+        },
+        "epaper": {
+            "alias": "idf::epaper",
+            "target": "___idf_epaper",
+            "prefix": "idf",
+            "dir": "/Users/eldenlord/CLionProjects/suomu_prot/components/epaper",
+            "source": "project_components",
+            "lib": "__idf_epaper",
+            "reqs": [ "esp_driver_spi", "esp_driver_gpio" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
         },
         "espressif__led_strip": {
             "alias": "idf::espressif__led_strip",

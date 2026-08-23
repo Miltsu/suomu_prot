@@ -5,6 +5,8 @@
 #include "led_strip.h"
 #include "jsn_sr04t.h"
 #include "ntc_thermistor.h"
+#include "display.h"
+
 
 #define LED_GPIO 8
 
@@ -24,6 +26,8 @@ void app_main(void)
     printf("Starting NTC and JSN-SR04T testing. Press Enter to stop.\n\n");
 
     bool led_on = false;
+    display_init();
+    display_show_text("Hello suomu");
 
     while (1) {
         int c = getchar();
