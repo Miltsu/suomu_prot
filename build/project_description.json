@@ -1,7 +1,7 @@
 {
     "version":            "1.3",
     "project_name":       "hello_world",
-    "project_version":    "4aa8fed-dirty",
+    "project_version":    "5d5e240-dirty",
     "project_path":       "/Users/eldenlord/CLionProjects/suomu_prot",
     "idf_path":           "/Users/eldenlord/esp/esp-idf",
     "build_dir":          "/Users/eldenlord/CLionProjects/suomu_prot/build",
@@ -985,7 +985,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__led_strip" ],
             "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/main/libmain.a",
-            "sources": [ "/Users/eldenlord/CLionProjects/suomu_prot/main/hello_world_main.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/jsn_sr04t.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/ntc_thermistor.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/ble.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/display.cpp" ],
+            "sources": [ "/Users/eldenlord/CLionProjects/suomu_prot/main/hello_world_main.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/jsn_sr04t.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/ntc_thermistor.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/ble.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/display.cpp", "/Users/eldenlord/CLionProjects/suomu_prot/main/buttons.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
