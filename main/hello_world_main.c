@@ -7,11 +7,13 @@
 #include "ntc_thermistor.h"
 #include "display.h"
 #include "buttons.h"
+#include "ble.h"
 #include "esp_timer.h"
+#include "nvs_flash.h"
 
 #define LED_GPIO 8
-#define MEASURE_DURATION_MS 6000   // measurement average
-#define SAMPLE_INTERVAL_MS 500     // how often to sample
+#define MEASURE_DURATION_MS 6000
+#define SAMPLE_INTERVAL_MS  500
 
 typedef enum {
     STATE_IDLE,
@@ -22,12 +24,24 @@ void app_main(void)
 {
     fcntl(fileno(stdin), F_SETFL, O_NONBLOCK);
 
+    // BLE INITIALIZE
+    esp_err_t nvs_ret = nvs_flash_init();
+    if (nvs_ret == ESP_ERR_NVS_NO_FREE_PAGES || nvs_ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
+        ESP_ERROR_CHECK(nvs_flash_erase());
+        nvs_ret = nvs_flash_init();
+    }
+    ESP_ERROR_CHECK(nvs_ret);
+
+    //BLE advertising
+    ble_init("MyESP32");
+
     led_strip_handle_t led_strip;
     led_strip_config_t strip_config = { .strip_gpio_num = LED_GPIO, .max_leds = 1 };
     led_strip_rmt_config_t rmt_config = { .resolution_hz = 10 * 1000 * 1000 };
     ESP_ERROR_CHECK(led_strip_new_rmt_device(&strip_config, &rmt_config, &led_strip));
     led_strip_clear(led_strip);
 
+    // Sensors / peripher
     ntc_thermistor_init();
     jsn_sr04t_init();
     buttons_init();
@@ -35,7 +49,6 @@ void app_main(void)
 
     device_state_t state = STATE_IDLE;
     char display_buf[64];
-
     display_show_text("Suomu\n Press button to\nstart measurement");
 
     int64_t measure_start_time = 0;
@@ -50,7 +63,8 @@ void app_main(void)
 
         if (button_is_clicked()) {
             if (state == STATE_IDLE) {
-                state = STATE_MEASURING; // new measurement session
+                // NEW MEASUREMENT SESSON
+                state = STATE_MEASURING;
                 measure_start_time = esp_timer_get_time();
                 last_sample_time = 0;
                 temp_sum = 0; temp_count = 0;
@@ -66,11 +80,13 @@ void app_main(void)
         if (state == STATE_MEASURING) {
             int64_t now = esp_timer_get_time();
             int64_t elapsed_ms = (now - measure_start_time) / 1000;
+
             if ((now - last_sample_time) >= (SAMPLE_INTERVAL_MS * 1000)) {
                 last_sample_time = now;
 
                 float temp_c;
-                if (ntc_thermistor_read_celsius(&temp_c)) {
+                bool ntc_ok = ntc_thermistor_read_celsius(&temp_c);
+                if (ntc_ok) {
                     temp_sum += temp_c;
                     temp_count++;
                 }
@@ -95,6 +111,10 @@ void app_main(void)
 
                     snprintf(display_buf, sizeof(display_buf),
                              "Depth: %.1f cm\nTemp: %.1f C", avg_dist, avg_temp);
+
+                    // SEND BLE VALUES
+                    ble_update_temperature(avg_temp);
+                    ble_update_distance(avg_dist);
                 } else {
                     printf("Measurement failed: no valid samples\n");
                     snprintf(display_buf, sizeof(display_buf), "Sensor fail!");
