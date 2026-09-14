@@ -47,3 +47,4 @@
 /Users/eldenlord/esp/esp-idf/components/esp_gdbstub/linker.lf
 /Users/eldenlord/esp/esp-idf/components/bt/linker_common.lf
 /Users/eldenlord/esp/esp-idf/components/bt/controller/linker_rw_bt_controller.lf
+/Users/eldenlord/esp/esp-idf/components/esp_driver_i2c/linker.lf

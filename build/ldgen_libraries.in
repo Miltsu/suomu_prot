@@ -129,9 +129,11 @@ $<TARGET_FILE:idf::esp_gdbstub>
 $<TARGET_FILE:idf::bt>
 $<TARGET_FILE:__idf_esp_gdbstub>
 $<TARGET_FILE:bt_btdm_app>
-$<TARGET_FILE:idf::epaper>
+$<TARGET_FILE:idf::esp_hal_i2c>
+$<TARGET_FILE:idf::esp_driver_i2c>
+$<TARGET_FILE:__idf_esp_hal_i2c>
 $<TARGET_FILE:idf::main>
 $<TARGET_FILE:__idf_espressif__led_strip>
 $<TARGET_FILE:__idf_esp_adc>
 $<TARGET_FILE:__idf_bt>
-$<TARGET_FILE:__idf_epaper>
+$<TARGET_FILE:__idf_esp_driver_i2c>

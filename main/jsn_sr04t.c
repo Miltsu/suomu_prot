@@ -30,12 +30,12 @@ float jsn_sr04t_read_distance_cm(void)
 
     int64_t start_wait = esp_timer_get_time();
     while (gpio_get_level(ECHO_PIN) == 0) {
-        if (esp_timer_get_time() - start_wait > 30000) return -1.0f;
+        if (esp_timer_get_time() - start_wait > 60000) return -1.0f;
     }
 
     int64_t echo_start = esp_timer_get_time();
     while (gpio_get_level(ECHO_PIN) == 1) {
-        if (esp_timer_get_time() - echo_start > 30000) return -1.0f;
+        if (esp_timer_get_time() - echo_start > 60000) return -1.0f;
     }
     int64_t echo_end = esp_timer_get_time();
 

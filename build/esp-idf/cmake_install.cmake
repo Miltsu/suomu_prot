@@ -399,7 +399,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/epaper/cmake_install.cmake")
+  include("/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_hal_i2c/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_driver_i2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -8,10 +8,11 @@
 #include "display.h"
 #include "buttons.h"
 #include "esp_timer.h"
+#include "ble.h"
 
 #define LED_GPIO 8
-#define MEASURE_DURATION_MS 6000   // measurement average
-#define SAMPLE_INTERVAL_MS 500     // how often to sample
+#define MEASURE_DURATION_MS 2000   // measurement average
+#define SAMPLE_INTERVAL_MS 300     // how often to sample
 
 typedef enum {
     STATE_IDLE,
@@ -32,11 +33,15 @@ void app_main(void)
     jsn_sr04t_init();
     buttons_init();
     display_init();
+    ble_init("Suomu");
 
     device_state_t state = STATE_IDLE;
-    char display_buf[64];
+    char display_buf[128];
 
-    display_show_text("Suomu\n Press button to\nstart measurement");
+    snprintf(display_buf, sizeof(display_buf),
+             "Suomu\nPress button to\nstart measurement\nBT: %s",
+             ble_is_connected() ? "Connected" : "Standalone");
+    display_show_text(display_buf);
 
     int64_t measure_start_time = 0;
     int64_t last_sample_time = 0;
@@ -86,19 +91,39 @@ void app_main(void)
                 state = STATE_IDLE;
                 led_strip_clear(led_strip);
 
-                if (temp_count > 0 && dist_count > 0) {
-                    float avg_temp = temp_sum / temp_count;
-                    float avg_dist = dist_sum / dist_count;
+                bool temp_ok = (temp_count > 0);
+                bool dist_ok = (dist_count > 0);
 
-                    printf("Average over %d samples: Depth=%.1f cm  Temp=%.1f C\n",
-                           dist_count, avg_dist, avg_temp);
+                float avg_temp = temp_ok ? (temp_sum / temp_count) : 0;
+                float avg_dist = dist_ok ? (dist_sum / dist_count) : 0;
 
-                    snprintf(display_buf, sizeof(display_buf),
-                             "Depth: %.1f cm\nTemp: %.1f C", avg_dist, avg_temp);
+                printf("Result: Depth=%s%.1f cm  Temp=%s%.1f C\n",
+                       dist_ok ? "" : "FAILED ", avg_dist,
+                       temp_ok ? "" : "FAILED ", avg_temp);
+
+                if (dist_ok) ble_update_distance(avg_dist);
+                if (temp_ok) ble_update_temperature(avg_temp);
+
+                char temp_line[32];
+                char dist_line[32];
+
+                if (temp_ok) {
+                    snprintf(temp_line, sizeof(temp_line), "Temp: %.1f C", avg_temp);
                 } else {
-                    printf("Measurement failed: no valid samples\n");
-                    snprintf(display_buf, sizeof(display_buf), "Sensor fail!");
+                    snprintf(temp_line, sizeof(temp_line), "Temp: FAILED");
                 }
+
+                if (dist_ok) {
+                    snprintf(dist_line, sizeof(dist_line), "Depth: %.1f cm", avg_dist);
+                } else {
+                    snprintf(dist_line, sizeof(dist_line), "Depth: FAILED");
+                }
+
+                snprintf(display_buf, sizeof(display_buf),
+                         "%s\n%s\nBT: %s",
+                         dist_line, temp_line,
+                         ble_is_connected() ? "Connected" : "Standalone");
+
                 display_show_text(display_buf);
             }
         }

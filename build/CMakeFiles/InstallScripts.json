@@ -106,7 +106,8 @@
 		"/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/bt/esp_ble_iso/cmake_install.cmake",
 		"/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/bt/esp_ble_audio/cmake_install.cmake",
 		"/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/bt/ble_profiles/cmake_install.cmake",
-		"/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/epaper/cmake_install.cmake",
+		"/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_hal_i2c/cmake_install.cmake",
+		"/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_driver_i2c/cmake_install.cmake",
 		"/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/main/cmake_install.cmake"
 	],
 	"Parallel" : false
