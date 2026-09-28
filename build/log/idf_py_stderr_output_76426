@@ -1,0 +1,60 @@
+Command: /Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/bin/python /Users/eldenlord/esp/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-210 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32c3 --revision 3 --decode-panic backtrace /Users/eldenlord/CLionProjects/suomu_prot/build/hello_world.elf /Users/eldenlord/CLionProjects/suomu_prot/build/bootloader/bootloader.elf -m '/Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/bin/python' '/Users/eldenlord/esp/esp-idf/tools/idf.py' '-p' '/dev/cu.usbserial-210'
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/cu.usbserial-210 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x403cbf10: [0;33mesp_bootloader_get_description[0m[0m at [0;32m/Users/eldenlord/esp/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c[0m[0m:[1;31m38[0m
+[0m--- 0x403ce710: [0;33mis_xmc_chip_strict[0m[0m at [0;32m/Users/eldenlord/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c[0m[0m:[1;31m911[0m
+[0m--- 0x403cbf1a: [0;33mcall_start_cpu0[0m[0m at [0;32m/Users/eldenlord/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m27[0m
+[1;31m--- Error: read failed: [Errno 6] Device not configured[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m[0m
+[1;31m--- Error: read failed: [Errno 6] Device not configured[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[1;31m--- Error: read failed: [Errno 6] Device not configured[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m[0m
+[1;31m--- Error: read failed: [Errno 6] Device not configured[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0mException in thread Thread-2 (_run_outer):
+Traceback (most recent call last):
+  File [35m"/Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/lib/python3.14/site-packages/serial/serialposix.py"[0m, line [35m575[0m, in [35mread[0m
+    buf = os.read(self.fd, size - len(read))
+[1;35mOSError[0m: [35m[Errno 6] Device not configured[0m
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File [35m"/Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/lib/python3.14/site-packages/esp_idf_monitor/base/serial_reader.py"[0m, line [35m77[0m, in [35mrun[0m
+    data = self.serial.read(self.serial.in_waiting or 1)
+  File [35m"/Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/lib/python3.14/site-packages/serial/serialposix.py"[0m, line [35m581[0m, in [35mread[0m
+    raise SerialException('read failed: {}'.format(e))
+[1;35mserial.serialutil.SerialException[0m: [35mread failed: [Errno 6] Device not configured[0m
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/threading.py"[0m, line [35m1082[0m, in [35m_bootstrap_inner[0m
+    [31mself._context.run[0m[1;31m(self.run)[0m
+    [31m~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/threading.py"[0m, line [35m1024[0m, in [35mrun[0m
+    [31mself._target[0m[1;31m(*self._args, **self._kwargs)[0m
+    [31m~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/lib/python3.14/site-packages/esp_idf_monitor/base/stoppable_thread.py"[0m, line [35m47[0m, in [35m_run_outer[0m
+    [31mself.run[0m[1;31m()[0m
+    [31m~~~~~~~~[0m[1;31m^^[0m
+  File [35m"/Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/lib/python3.14/site-packages/esp_idf_monitor/base/serial_reader.py"[0m, line [35m91[0m, in [35mrun[0m
+    [31mself.open_serial[0m[1;31m(reset=self.reset)[0m
+    [31m~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/lib/python3.14/site-packages/esp_idf_monitor/base/serial_reader.py"[0m, line [35m109[0m, in [35mopen_serial[0m
+    [31mself.serial.open[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"/Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/lib/python3.14/site-packages/serial/serialposix.py"[0m, line [35m332[0m, in [35mopen[0m
+    [31mself._reconfigure_port[0m[1;31m(force_update=True)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/lib/python3.14/site-packages/serial/serialposix.py"[0m, line [35m517[0m, in [35m_reconfigure_port[0m
+    [31mtermios.tcsetattr[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mself.fd,[0m
+        [1;31m^^^^^^^^[0m
+        [1;31mtermios.TCSANOW,[0m
+        [1;31m^^^^^^^^^^^^^^^^[0m
+        [1;31m[iflag, oflag, cflag, lflag, ispeed, ospeed, cc])[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mtermios.error[0m: [35m(22, 'Invalid argument')[0m
+[0m

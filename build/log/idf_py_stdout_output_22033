@@ -1,0 +1,265 @@
+Command: ninja all
+[0/1] Re-running CMake...
+-- Minimal build - ON
+-- esp-idf-configdep will be used for faster recompilation
+-- Compiler launcher chain: esp-idf-configdep
+-- Building ESP-IDF components for target esp32c3
+NOTE: Processing 2 dependencies:
+NOTE: [1/2] espressif/led_strip (3.0.3)
+NOTE: [2/2] idf (6.2.0)
+-- KCONFIG_REPORT_VERBOSITY not set, using default
+-- Project sdkconfig file /Users/eldenlord/CLionProjects/suomu_prot/sdkconfig
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/riscv/ld/rom.api.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_hal_regi2c/esp32c3/rom.regi2c.ld
+-- App "hello_world" version: 5d5e240-dirty
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in
+--   -> Preprocessing .in script: /Users/eldenlord/esp/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in
+--   -> Preprocessing .in script: /Users/eldenlord/esp/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in
+--   -> Applying ldgen processing: /Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.api.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.bt_funcs.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libgcc.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.version.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ble_cca.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ble_test.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3_bt_funcs.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libc.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/soc/esp32c3/ld/esp32c3.peripherals.ld
+-- Setting up mbedtls configuration
+-- Linkage type is PUBLIC
+-- Linker: /Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-ld (GNU ld (crosstool-NG esp-16.1.0_20260609) 2.46)
+-- Components: bootloader bootloader_support bt cxx efuse epaper esp_adc esp_app_format esp_blockdev esp_bootloader_format esp_coex esp_common esp_driver_bitscrambler esp_driver_dma esp_driver_gpio esp_driver_rmt esp_driver_spi esp_driver_uart esp_driver_usb_serial_jtag esp_event esp_gdbstub esp_hal_ana_conv esp_hal_clock esp_hal_debug_assist esp_hal_dma esp_hal_gpio esp_hal_gpspi esp_hal_mspi esp_hal_pmu esp_hal_regi2c esp_hal_rmt esp_hal_rtc_timer esp_hal_security esp_hal_systimer esp_hal_timg esp_hal_touch_sens esp_hal_uart esp_hal_usb esp_hal_wdt esp_hw_support esp_libc esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_stdio esp_system esp_timer esp_usb_cdc_rom_console esp_wifi espressif__led_strip esptool_py freertos hal heap log lwip main mbedtls nvs_flash nvs_sec_provider partition_table pthread riscv soc spi_flash vfs wpa_supplicant
+-- Component paths: /Users/eldenlord/esp/esp-idf/components/bootloader /Users/eldenlord/esp/esp-idf/components/bootloader_support /Users/eldenlord/esp/esp-idf/components/bt /Users/eldenlord/esp/esp-idf/components/cxx /Users/eldenlord/esp/esp-idf/components/efuse /Users/eldenlord/CLionProjects/suomu_prot/components/epaper /Users/eldenlord/esp/esp-idf/components/esp_adc /Users/eldenlord/esp/esp-idf/components/esp_app_format /Users/eldenlord/esp/esp-idf/components/esp_blockdev /Users/eldenlord/esp/esp-idf/components/esp_bootloader_format /Users/eldenlord/esp/esp-idf/components/esp_coex /Users/eldenlord/esp/esp-idf/components/esp_common /Users/eldenlord/esp/esp-idf/components/esp_driver_bitscrambler /Users/eldenlord/esp/esp-idf/components/esp_driver_dma /Users/eldenlord/esp/esp-idf/components/esp_driver_gpio /Users/eldenlord/esp/esp-idf/components/esp_driver_rmt /Users/eldenlord/esp/esp-idf/components/esp_driver_spi /Users/eldenlord/esp/esp-idf/components/esp_driver_uart /Users/eldenlord/esp/esp-idf/components/esp_driver_usb_serial_jtag /Users/eldenlord/esp/esp-idf/components/esp_event /Users/eldenlord/esp/esp-idf/components/esp_gdbstub /Users/eldenlord/esp/esp-idf/components/esp_hal_ana_conv /Users/eldenlord/esp/esp-idf/components/esp_hal_clock /Users/eldenlord/esp/esp-idf/components/esp_hal_debug_assist /Users/eldenlord/esp/esp-idf/components/esp_hal_dma /Users/eldenlord/esp/esp-idf/components/esp_hal_gpio /Users/eldenlord/esp/esp-idf/components/esp_hal_gpspi /Users/eldenlord/esp/esp-idf/components/esp_hal_mspi /Users/eldenlord/esp/esp-idf/components/esp_hal_pmu /Users/eldenlord/esp/esp-idf/components/esp_hal_regi2c /Users/eldenlord/esp/esp-idf/components/esp_hal_rmt /Users/eldenlord/esp/esp-idf/components/esp_hal_rtc_timer /Users/eldenlord/esp/esp-idf/components/esp_hal_security /Users/eldenlord/esp/esp-idf/components/esp_hal_systimer /Users/eldenlord/esp/esp-idf/components/esp_hal_timg /Users/eldenlord/esp/esp-idf/components/esp_hal_touch_sens /Users/eldenlord/esp/esp-idf/components/esp_hal_uart /Users/eldenlord/esp/esp-idf/components/esp_hal_usb /Users/eldenlord/esp/esp-idf/components/esp_hal_wdt /Users/eldenlord/esp/esp-idf/components/esp_hw_support /Users/eldenlord/esp/esp-idf/components/esp_libc /Users/eldenlord/esp/esp-idf/components/esp_mm /Users/eldenlord/esp/esp-idf/components/esp_netif /Users/eldenlord/esp/esp-idf/components/esp_netif_stack /Users/eldenlord/esp/esp-idf/components/esp_partition /Users/eldenlord/esp/esp-idf/components/esp_phy /Users/eldenlord/esp/esp-idf/components/esp_pm /Users/eldenlord/esp/esp-idf/components/esp_psram /Users/eldenlord/esp/esp-idf/components/esp_ringbuf /Users/eldenlord/esp/esp-idf/components/esp_rom /Users/eldenlord/esp/esp-idf/components/esp_security /Users/eldenlord/esp/esp-idf/components/esp_stdio /Users/eldenlord/esp/esp-idf/components/esp_system /Users/eldenlord/esp/esp-idf/components/esp_timer /Users/eldenlord/esp/esp-idf/components/esp_usb_cdc_rom_console /Users/eldenlord/esp/esp-idf/components/esp_wifi /Users/eldenlord/CLionProjects/suomu_prot/managed_components/espressif__led_strip /Users/eldenlord/esp/esp-idf/components/esptool_py /Users/eldenlord/esp/esp-idf/components/freertos /Users/eldenlord/esp/esp-idf/components/hal /Users/eldenlord/esp/esp-idf/components/heap /Users/eldenlord/esp/esp-idf/components/log /Users/eldenlord/esp/esp-idf/components/lwip /Users/eldenlord/CLionProjects/suomu_prot/main /Users/eldenlord/esp/esp-idf/components/mbedtls /Users/eldenlord/esp/esp-idf/components/nvs_flash /Users/eldenlord/esp/esp-idf/components/nvs_sec_provider /Users/eldenlord/esp/esp-idf/components/partition_table /Users/eldenlord/esp/esp-idf/components/pthread /Users/eldenlord/esp/esp-idf/components/riscv /Users/eldenlord/esp/esp-idf/components/soc /Users/eldenlord/esp/esp-idf/components/spi_flash /Users/eldenlord/esp/esp-idf/components/vfs /Users/eldenlord/esp/esp-idf/components/wpa_supplicant
+-- Configuring done (4.7s)
+-- Generating done (0.3s)
+-- Build files have been written to: /Users/eldenlord/CLionProjects/suomu_prot/build
+[1/165] Preprocessing linker script /Users/eldenlord/esp/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in -> /Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_system/ld/memory.ld
+[2/165] Preprocessing linker script /Users/eldenlord/esp/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in -> /Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/esp_system/ld/sections.ld.in
+[3/165] Building ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv/portasm.S.obj
+[4/165] Linking C static library esp-idf/freertos/libfreertos.a
+[5/165] Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj
+[6/165] Linking C static library esp-idf/esp_pm/libesp_pm.a
+[7/165] Building ASM object esp-idf/riscv/CMakeFiles/__idf_riscv.dir/vectors_intc.S.obj
+[8/165] Building ASM object esp-idf/riscv/CMakeFiles/__idf_riscv.dir/vectors.S.obj
+[9/165] Linking C static library esp-idf/riscv/libriscv.a
+[10/165] Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj
+[11/165] Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj
+[12/165] Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/lib_printf.c.obj
+[13/165] Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist.c.obj
+[14/165] Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32c3/esp_coex_adapter.c.obj
+[15/165] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.obj
+[16/165] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32c3/esp_adapter.c.obj
+[17/165] Linking C static library esp-idf/esp_wifi/libesp_wifi.a
+[18/165] Linking C static library esp-idf/esp_coex/libesp_coex.a
+[19/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj
+[20/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.obj
+[21/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.obj
+[22/165] Building C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_common.c.obj
+[23/165] Linking C static library esp-idf/wpa_supplicant/libwpa_supplicant.a
+[24/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/hci_log/bt_hci_log.c.obj
+[25/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.obj
+[26/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.obj
+[27/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/api/esp_blufi_api.c.obj
+[28/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.obj
+[29/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_pkt_queue.c.obj
+[30/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/pkt_queue.c.obj
+[31/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_protocol.c.obj
+[32/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.obj
+[33/165] Linking C static library esp-idf/esp_phy/libesp_phy.a
+[34/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/hci_log/bt_hci_log_insights.c.obj
+[35/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.obj
+[36/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.obj
+[37/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.obj
+[38/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj
+[39/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_mode.c.obj
+[40/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/sha256.c.obj
+[41/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_encrypt.c.obj
+[42/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/utils.c.obj
+[43/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.obj
+[44/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_decrypt.c.obj
+[45/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_prng.c.obj
+[46/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dsa.c.obj
+[47/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cmac_mode.c.obj
+[48/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ccm_mode.c.obj
+[49/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_platform_specific.c.obj
+[50/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dh.c.obj
+[51/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.obj
+[52/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.obj
+[53/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac_prng.c.obj
+[54/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac.c.obj
+[55/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cbc_mode.c.obj
+[56/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.obj
+[57/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/port/esp_tinycrypt_port.c.obj
+[58/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.obj
+[59/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc.c.obj
+[60/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.obj
+[61/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/ble_log/deprecated/ble_log_spi_out.c.obj
+[62/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osal/src/bt_osal_freertos.c.obj
+[63/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.obj
+[64/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/src/transport.c.obj
+[65/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/util/src/addr.c.obj
+[66/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj
+[67/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.obj
+[68/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj
+[69/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj
+[70/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.obj
+[71/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.obj
+[72/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj
+[73/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.obj
+[74/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_cs.c.obj
+[75/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.obj
+[76/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj
+[77/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj
+[78/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj
+[79/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.obj
+[80/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32c3/bt.c.obj
+[81/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.obj
+[82/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.obj
+[83/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.obj
+[84/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.obj
+[85/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store_util.c.obj
+[86/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj
+[87/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj
+[88/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_conn.c.obj
+[89/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ibeacon.c.obj
+[90/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.obj
+[91/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_id.c.obj
+[92/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.obj
+[93/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_stop.c.obj
+[94/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.obj
+[95/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_alg.c.obj
+[96/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs.c.obj
+[97/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ead.c.obj
+[98/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.obj
+[99/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.obj
+[100/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.obj
+[101/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm.c.obj
+[102/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_svr.c.obj
+[103/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att.c.obj
+[104/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.obj
+[105/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.obj
+[106/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.obj
+[107/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store.c.obj
+[108/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.obj
+[109/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_log.c.obj
+[110/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_cmd.c.obj
+[111/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_clt.c.obj
+[112/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_startup.c.obj
+[113/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eddystone.c.obj
+[114/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.obj
+[115/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.obj
+[116/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj
+[117/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eatt.c.obj
+[118/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.obj
+[119/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_flow.c.obj
+[120/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_misc.c.obj
+[121/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.obj
+[122/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_uuid.c.obj
+[123/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap.c.obj
+[124/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj
+[125/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_sc.c.obj
+[126/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/nvs_port.c.obj
+[127/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci.c.obj
+[128/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.obj
+[129/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_adv.c.obj
+[130/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/esp_nimble_mem.c.obj
+[131/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.obj
+[132/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/endian.c.obj
+[133/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts.c.obj
+[134/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc.c.obj
+[135/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.obj
+[136/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.obj
+[137/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj
+[138/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/bt_osi_mem.c.obj
+[139/165] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/jsn_sr04t.c.obj
+[140/165] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ntc_thermistor.c.obj
+[141/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.obj
+[142/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.obj
+[143/165] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/display.cpp.obj
+[144/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/nimble_port.c.obj
+[145/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/esp-hci/src/esp_nimble_hci.c.obj
+[146/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/os_mempool.c.obj
+[147/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/mem.c.obj
+[148/165] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/hello_world_main.c.obj
+[149/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_msys_init.c.obj
+[150/165] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.obj
+[151/165] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ble.c.obj
+[152/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mbuf.c.obj
+[153/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gap.c.obj
+[154/165] Building C object esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj
+[155/165] Linking C static library esp-idf/bt/libbt.a
+[156/165] Linking C static library esp-idf/main/libmain.a
+[157/165] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Minimal build - OFF
+-- No compiler launcher chain will be used.
+-- Building ESP-IDF components for target esp32c3
+-- KCONFIG_REPORT_VERBOSITY not set, using default
+-- Project sdkconfig file /Users/eldenlord/CLionProjects/suomu_prot/sdkconfig
+NOTE: Kconfig parser version: 1
+NOTE: Kconfig defaults policy: use sdkconfig
+NOTE: Status: Finished successfully
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/riscv/ld/rom.api.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/soc/esp32c3/ld/esp32c3.peripherals.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_hal_regi2c/esp32c3/rom.regi2c.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.api.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.bt_funcs.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libgcc.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.version.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libc.ld
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libc-suboptimal_for_misaligned_mem.ld
+-- Linker: /Users/eldenlord/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-ld (GNU ld (crosstool-NG esp-16.1.0_20260609) 2.46)
+-- Components: bootloader bootloader_support efuse esp_app_format esp_blockdev esp_bootloader_format esp_common esp_hal_ana_conv esp_hal_clock esp_hal_debug_assist esp_hal_dma esp_hal_gpio esp_hal_gpspi esp_hal_mspi esp_hal_pmu esp_hal_regi2c esp_hal_rtc_timer esp_hal_security esp_hal_systimer esp_hal_timg esp_hal_uart esp_hal_usb esp_hal_wdt esp_hw_support esp_image_verify esp_libc esp_rom esp_security esp_stdio esp_system esptool_py freertos hal log main micro-ecc partition_table riscv soc spi_flash
+-- Component paths: /Users/eldenlord/esp/esp-idf/components/bootloader /Users/eldenlord/esp/esp-idf/components/bootloader_support /Users/eldenlord/esp/esp-idf/components/efuse /Users/eldenlord/esp/esp-idf/components/esp_app_format /Users/eldenlord/esp/esp-idf/components/esp_blockdev /Users/eldenlord/esp/esp-idf/components/esp_bootloader_format /Users/eldenlord/esp/esp-idf/components/esp_common /Users/eldenlord/esp/esp-idf/components/esp_hal_ana_conv /Users/eldenlord/esp/esp-idf/components/esp_hal_clock /Users/eldenlord/esp/esp-idf/components/esp_hal_debug_assist /Users/eldenlord/esp/esp-idf/components/esp_hal_dma /Users/eldenlord/esp/esp-idf/components/esp_hal_gpio /Users/eldenlord/esp/esp-idf/components/esp_hal_gpspi /Users/eldenlord/esp/esp-idf/components/esp_hal_mspi /Users/eldenlord/esp/esp-idf/components/esp_hal_pmu /Users/eldenlord/esp/esp-idf/components/esp_hal_regi2c /Users/eldenlord/esp/esp-idf/components/esp_hal_rtc_timer /Users/eldenlord/esp/esp-idf/components/esp_hal_security /Users/eldenlord/esp/esp-idf/components/esp_hal_systimer /Users/eldenlord/esp/esp-idf/components/esp_hal_timg /Users/eldenlord/esp/esp-idf/components/esp_hal_uart /Users/eldenlord/esp/esp-idf/components/esp_hal_usb /Users/eldenlord/esp/esp-idf/components/esp_hal_wdt /Users/eldenlord/esp/esp-idf/components/esp_hw_support /Users/eldenlord/esp/esp-idf/components/esp_image_verify /Users/eldenlord/esp/esp-idf/components/esp_libc /Users/eldenlord/esp/esp-idf/components/esp_rom /Users/eldenlord/esp/esp-idf/components/esp_security /Users/eldenlord/esp/esp-idf/components/esp_stdio /Users/eldenlord/esp/esp-idf/components/esp_system /Users/eldenlord/esp/esp-idf/components/esptool_py /Users/eldenlord/esp/esp-idf/components/freertos /Users/eldenlord/esp/esp-idf/components/hal /Users/eldenlord/esp/esp-idf/components/log /Users/eldenlord/esp/esp-idf/components/bootloader/subproject/main /Users/eldenlord/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /Users/eldenlord/esp/esp-idf/components/partition_table /Users/eldenlord/esp/esp-idf/components/riscv /Users/eldenlord/esp/esp-idf/components/soc /Users/eldenlord/esp/esp-idf/components/spi_flash
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/bootloader/subproject/main/ld/esp32c3/bootloader.memory.ld.in
+--   -> Preprocessing .in script: /Users/eldenlord/esp/esp-idf/components/bootloader/subproject/main/ld/esp32c3/bootloader.memory.ld.in
+-- Adding linker script /Users/eldenlord/esp/esp-idf/components/bootloader/subproject/main/ld/esp32c3/bootloader.sections.ld.in
+--   -> Preprocessing .in script: /Users/eldenlord/esp/esp-idf/components/bootloader/subproject/main/ld/esp32c3/bootloader.sections.ld.in
+-- Configuring done (3.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/eldenlord/CLionProjects/suomu_prot/build/bootloader
+[1/2] cd /Users/eldenlord/CLionProjects/suomu_prot/build/bootloader && /Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/bin/python /Users/eldenlord/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /Users/eldenlord/CLionProjects/suomu_prot/build/bootloader/bootloader.bin
+Bootloader binary size 0x50c0 bytes. 0x2f40 bytes (37%) free.
+[158/165] No install step for 'bootloader'
+[159/165] Completed 'bootloader'
+[160/165] Generating esp-idf/esp_system/ld/sections.ld
+[161/165] Building C object CMakeFiles/hello_world.elf.dir/project_elf_src_esp32c3.c.obj
+[162/165] Linking CXX executable hello_world.elf; Checking ioctl definition overlaps
+[163/165] Generating binary image from built executable
+esptool v5.3.1
+Creating ESP32-C3 image...
+Merged 3 ELF sections.
+Successfully created ESP32-C3 image.
+Generated /Users/eldenlord/CLionProjects/suomu_prot/build/hello_world.bin
+[164/165] cd /Users/eldenlord/CLionProjects/suomu_prot/build && /Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/bin/python /Users/eldenlord/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/eldenlord/CLionProjects/suomu_prot/build/partition_table/partition-table.bin /Users/eldenlord/CLionProjects/suomu_prot/build/hello_world.bin
+hello_world.bin binary size 0x3af00 bytes. Smallest app partition is 0x100000 
+bytes. 0xc5100 bytes (77%) free.

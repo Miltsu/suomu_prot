@@ -1,0 +1,20 @@
+Command: ninja all
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /Users/eldenlord/CLionProjects/suomu_prot/build/bootloader && /Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/bin/python /Users/eldenlord/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /Users/eldenlord/CLionProjects/suomu_prot/build/bootloader/bootloader.bin
+Bootloader binary size 0x50c0 bytes. 0x2f40 bytes (37%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Completed 'bootloader'
+[4/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/hello_world_main.c.obj
+[5/9] Linking C static library esp-idf/main/libmain.a
+[6/9] Generating esp-idf/esp_system/ld/sections.ld
+Skipping linker script generation, section names unchanged
+[7/9] Linking CXX executable hello_world.elf; Checking ioctl definition overlaps
+[8/9] Generating binary image from built executable
+esptool v5.3.1
+Creating ESP32-C3 image...
+Merged 3 ELF sections.
+Successfully created ESP32-C3 image.
+Generated /Users/eldenlord/CLionProjects/suomu_prot/build/hello_world.bin
+[9/9] cd /Users/eldenlord/CLionProjects/suomu_prot/build && /Users/eldenlord/.espressif/python_env/idf6.2_py3.14_env/bin/python /Users/eldenlord/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/eldenlord/CLionProjects/suomu_prot/build/partition_table/partition-table.bin /Users/eldenlord/CLionProjects/suomu_prot/build/hello_world.bin
+hello_world.bin binary size 0x83120 bytes. Smallest app partition is 0x100000 
+bytes. 0x7cee0 bytes (49%) free.
