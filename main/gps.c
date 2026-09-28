@@ -6,10 +6,9 @@
 #include "driver/uart.h"
 #include <string.h>
 #include <stdlib.h>
-#include <stdio.h>
 
 #define GPS_UART_NUM     UART_NUM_1
-#define GPS_RX_PIN       20
+#define GPS_RX_PIN       20   // moved off GPIO20/21 — those conflict with USB flashing
 #define GPS_TX_PIN       21
 #define GPS_BAUD_RATE    9600
 #define GPS_BUF_SIZE     1024
@@ -72,11 +71,6 @@ bool gps_get_location(float *out_lat, float *out_lon)
     static int line_pos = 0;
 
     int len = uart_read_bytes(GPS_UART_NUM, data, GPS_BUF_SIZE - 1, pdMS_TO_TICKS(100));
-
-    if (len > 0) {
-        printf("[GPS RAW] Got %d bytes: %.*s\n", len, len, data);   // <-- add this line
-    }
-
     if (len > 0) {
         for (int i = 0; i < len; i++) {
             char c = data[i];

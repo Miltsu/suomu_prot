@@ -10,30 +10,26 @@
 #include <stdio.h>
 #include "esp_log.h"
 
-// Service UUID: e77e9316-1158-4405-8bf0-5f74ff01f0ac
+// Service UUID e77e9316-1158-4405-8bf0-5f74ff01f0ac
 static const ble_uuid128_t service_uuid =
     BLE_UUID128_INIT(0xac,0xf0,0x01,0xff,0x74,0x5f,0xf0,0x8b,0x05,0x44,0x58,0x11,0x16,0x93,0x7e,0xe7);
 
-// Distance characteristic UUID: 39e83723-096a-4b54-9b2d-38b1ac05d980
+// Distance characteristic UUID 39e83723-096a-4b54-9b2d-38b1ac05d980
 static const ble_uuid128_t distance_chr_uuid =
     BLE_UUID128_INIT(0x80,0xd9,0x05,0xac,0xb1,0x38,0x2d,0x9b,0x54,0x4b,0x6a,0x09,0x23,0x37,0xe8,0x39);
 
-// Temperature characteristic UUID: 47cbe295-7e40-4c2c-ac4b-42d927845593
+// Temperature characteristic UUID 47cbe295-7e40-4c2c-ac4b-42d927845593
 static const ble_uuid128_t temp_chr_uuid =
     BLE_UUID128_INIT(0x93,0x55,0x84,0x27,0xd9,0x42,0x4b,0xac,0x2c,0x4c,0x40,0x7e,0x95,0xe2,0xcb,0x47);
 
 static const ble_uuid128_t location_chr_uuid =
     BLE_UUID128_INIT(0x11,0x22,0x33,0x44,0x55,0x66,0x77,0x88,0x99,0xaa,0xbb,0xcc,0xdd,0xee,0xff,0x00);
 
-// Forward declaration — ble_advertise() uses this before it's defined below
 static int ble_gap_event(struct ble_gap_event *event, void *arg);
-
-// Values stored as text strings, so MIT App Inventor can display them directly
 static char current_distance_str[16] = "0";
 static char current_temp_str[16] = "0";
 static char current_location_str[32] = "0,0";
 
-// Handles needed so we know which "mailbox" to notify, and who is connected
 static uint16_t distance_val_handle;
 static uint16_t temp_val_handle;
 static uint16_t location_val_handle;

@@ -1,7 +1,7 @@
 {
     "version":            "1.3",
     "project_name":       "hello_world",
-    "project_version":    "c7f3abf-dirty",
+    "project_version":    "c6e0817-dirty",
     "project_path":       "/Users/eldenlord/CLionProjects/suomu_prot",
     "idf_path":           "/Users/eldenlord/esp/esp-idf",
     "build_dir":          "/Users/eldenlord/CLionProjects/suomu_prot/build",
@@ -996,11 +996,11 @@
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [],
-            "priv_reqs": [ "spi_flash", "esp_driver_gpio", "espressif__led_strip", "esp_adc", "esp_timer", "bt", "nvs_flash", "esp_driver_i2c" ],
+            "priv_reqs": [ "spi_flash", "esp_driver_gpio", "espressif__led_strip", "esp_adc", "esp_timer", "bt", "nvs_flash", "esp_driver_i2c", "esp_driver_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__led_strip" ],
             "file": "/Users/eldenlord/CLionProjects/suomu_prot/build/esp-idf/main/libmain.a",
-            "sources": [ "/Users/eldenlord/CLionProjects/suomu_prot/main/hello_world_main.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/jsn_sr04t.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/ntc_thermistor.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/ble.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/display.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/buttons.c" ],
+            "sources": [ "/Users/eldenlord/CLionProjects/suomu_prot/main/hello_world_main.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/jsn_sr04t.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/ntc_thermistor.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/ble.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/display.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/buttons.c", "/Users/eldenlord/CLionProjects/suomu_prot/main/gps.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
@@ -3100,7 +3100,7 @@
             "source": "project_components",
             "lib": "__idf_main",
             "reqs": [],
-            "priv_reqs": [ "spi_flash", "esp_driver_gpio", "espressif__led_strip", "esp_adc", "esp_timer", "bt", "nvs_flash", "esp_driver_i2c" ],
+            "priv_reqs": [ "spi_flash", "esp_driver_gpio", "espressif__led_strip", "esp_adc", "esp_timer", "bt", "nvs_flash", "esp_driver_i2c", "esp_driver_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__led_strip" ],
             "include_dirs": [ "." ]

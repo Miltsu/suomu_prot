@@ -6,10 +6,11 @@
 
 #ifdef __cplusplus
 extern "C" {
+
 #endif
 
 void display_init(void);
-void display_show_text(const char *text);
+void display_show_text(const char* text);
 
 #ifdef __cplusplus
 }
