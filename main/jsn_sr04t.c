@@ -7,7 +7,7 @@
 #include "esp_timer.h"
 #include "esp_rom_sys.h"
 
-#define TRIG_PIN 2   //may need to move later due to e-babers pin conflicts
+#define TRIG_PIN 2
 #define ECHO_PIN 3
 
 void jsn_sr04t_init(void)

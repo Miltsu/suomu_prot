@@ -38,11 +38,6 @@ void app_main(void)
     device_state_t state = STATE_IDLE;
     char display_buf[64];
 
-    snprintf(display_buf, sizeof(display_buf),
-             "Press to start\nBT:%s",
-             ble_is_connected() ? "Conn" : "Alone");
-    display_show_text(display_buf);
-
     int64_t measure_start_time = 0;
     int64_t last_sample_time = 0;
     float temp_sum = 0;
@@ -50,11 +45,31 @@ void app_main(void)
     float dist_sum = 0;
     int dist_count = 0;
 
+    int64_t last_idle_refresh = 0;
+    bool last_bt_state = false;
+    int64_t result_shown_time = 0;
+
     while (1) {
         buttons_update();
         bool clicked = button_is_clicked();
 
         if (state == STATE_IDLE) {
+            int64_t now_idle = esp_timer_get_time();
+            bool current_bt_state = ble_is_connected();
+
+            bool result_still_showing = (now_idle - result_shown_time) < 5000000;
+
+            if (!result_still_showing &&
+                (current_bt_state != last_bt_state || (now_idle - last_idle_refresh) >= 2000000)) {
+                last_idle_refresh = now_idle;
+                last_bt_state = current_bt_state;
+
+                snprintf(display_buf, sizeof(display_buf),
+                         "Press to start\nBT:%s",
+                         current_bt_state ? "Conn" : "Alone");
+                display_show_text(display_buf);
+            }
+
             if (clicked) {
                 state = STATE_MEASURING;
                 measure_start_time = esp_timer_get_time();
@@ -88,7 +103,6 @@ void app_main(void)
                     dist_count++;
                 }
 
-                // One line printed per sample, so you can watch live NTC/distance readings
                 printf("  [sample] t=%lldms  Temp=%s%.1fC  Dist=%s%.1fcm\n",
                        elapsed_ms,
                        ntc_ok ? "" : "FAIL ", ntc_ok ? temp_c : 0,
@@ -133,6 +147,8 @@ void app_main(void)
 
                 snprintf(display_buf, sizeof(display_buf), "%s\n%s", line1, line2);
                 display_show_text(display_buf);
+
+                result_shown_time = esp_timer_get_time();
             }
         }
 

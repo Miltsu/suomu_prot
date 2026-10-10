@@ -167,3 +167,7 @@ void ble_update_temperature(float temp_c) {
         ble_gattc_notify_custom(conn_handle, temp_val_handle, om);
     }
 }
+
+bool ble_is_connected(void) {
+    return conn_handle != BLE_HS_CONN_HANDLE_NONE;
+}
