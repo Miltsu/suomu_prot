@@ -2,7 +2,7 @@
 Metropolia UAS (Milla Juote, Phoebe Kuusijärvi, Matleena Vaara - 2026)
 
 Our team designed a prototype for a handheld fish-finder built for our embedded IoT systems engineering course. 
-A handheld unit with a e-paper screen and buttons connects via an extendable pole to a waterproof sensor probe, 
+A handheld unit with a Grove black-on-yellow display and buttons connects via an extendable pole to a waterproof sensor probe, 
 measuring water depth and temperature and sending readings to a companion phone app over Bluetooth.
 
 ## Status
@@ -18,12 +18,12 @@ In active development, team presentation-ready as of the current sprint. See [Ro
 | MCU | ESP32-C3-DevKitC-02 (ESP32-C3-WROOM-02 module) |
 | Distance sensor | JSN-SR04T waterproof ultrasonic sensor |
 | Temperature sensor | NTC 10k thermistor |
-| Display | Waveshare 1.54" e-Paper Module, rev 2.1 (200×200, SPI) |
+| Display | Grove 16x2 Black-On-Yellow |
 | Op-amps | 2× MCP6022-E/P dual op-amp |
 | Battery | 18650 Li-ion, 2600mAh |
 | Charging | MicroLipo 3.7V/4.2V charger |
 | Power | 0.9–5V → 5V DC-DC step-up (boost) converter |
-| Buttons | 2× push buttons |
+| Buttons | 1× push button |
 | GPS | TBD (provided by course, model not yet confirmed) |
 | Connectivity | Bluetooth Low Energy (built into ESP32-C3) |
 
@@ -34,21 +34,16 @@ In active development, team presentation-ready as of the current sprint. See [Ro
 | NTC thermistor (ADC) | GPIO0 |
 | JSN-SR04T TRIG | GPIO2 |
 | JSN-SR04T ECHO (via 1kΩ/2kΩ divider) | GPIO3 |
-| Display DC | GPIO4 |
-| Display RST | GPIO5 |
-| Display CLK (SPI) | GPIO6 |
-| Display DIN/MOSI (SPI) | GPIO7 |
+| Display SCL | GPIO7 |
+| Display SDA | GPIO6 |
 | Onboard RGB LED | GPIO8 |
-| Display CS (SPI) | GPIO10 |
-| Display BUSY | GPIO18 |
-
-GPIO19–21 reserved for buttons / GPS UART once finalised.
+| Button | GPIO1
 
 **Note:** the JSN-SR04T's ECHO line outputs 5V; a 1kΩ/2kΩ resistor divider steps this down to a safe 3.3V for the ESP32-C3's GPIO.
 
 ## Software architecture
 
-Built with **ESP-IDF** (not Arduino), developed in **CLion**. Code is split into per-module `.c`/`.h` pairs so the team can work in parallel:
+Built with **ESP-IDF**, developed in **CLion**. Code is split into per-module `.c`/`.h` pairs so the team can work in parallel:
 
 ```
 main/
@@ -91,17 +86,16 @@ The phone-side app is built with **MIT App Inventor** and connects to the device
 
 - [x] MCU + toolchain set up (ESP-IDF, CLion, cross-platform team setup)
 - [x] Ultrasonic distance sensor — wired, tested, working
-- [x] Temperature sensor — wired, tested, working, calibrated against known temperatures
+- [x] NTC — wired, tested, working, calibrated against known temperatures
 - [x] Onboard LED — working
-- [x] E-paper display — driver integrated, text rendering confirmed
+- [x] Display — driver integrated, text rendering confirmed
 - [x] Code split into per-module architecture
 - [x] BLE — service/characteristics drafted, hardware testing in progress
 - [ ] GPS — blocked on hardware arrival
-- [ ] Buttons — pin-budget-constrained; considering an ADC-based button ladder to save GPIOs
-- [ ] Power subsystem (battery + charger + boost converter) — parts in hand, not yet assembled end-to-end
-- [ ] Final PCB layout (KiCad) — pending full breadboard integration
-- [ ] 3D-printed enclosure
-- [ ] Final assembly and soldering
+- [x] Button — pin-budget-constrained; considering an ADC-based button ladder to save GPIOs
+- [x] Final PCB layout (KiCad) — pending full breadboard integration
+- [x] 3D-printed enclosure
+- [x] Final assembly and soldering
 
 
 ## Team
