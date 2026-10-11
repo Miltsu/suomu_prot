@@ -33,7 +33,7 @@ void app_main(void)
     jsn_sr04t_init();
     buttons_init();
     display_init();
-    ble_init("Suomu");
+    ble_init("SUOMU");
 
     device_state_t state = STATE_IDLE;
     char display_buf[64];

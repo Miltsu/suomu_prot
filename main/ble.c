@@ -25,11 +25,9 @@ static const ble_uuid128_t temp_chr_uuid =
 // Forward declaration — ble_advertise() uses this before it's defined below
 static int ble_gap_event(struct ble_gap_event *event, void *arg);
 
-// Values stored as text strings, e.g. "23.5", so MIT App Inventor can display them directly
 static char current_distance_str[16] = "0";
 static char current_temp_str[16] = "0";
 
-// Handles needed so we know which "mailbox" to notify, and who is connected
 static uint16_t distance_val_handle;
 static uint16_t temp_val_handle;
 static uint16_t conn_handle = BLE_HS_CONN_HANDLE_NONE;
@@ -93,7 +91,6 @@ static void ble_advertise(void) {
     ble_gap_adv_start(own_addr_type, NULL, BLE_HS_FOREVER, &adv_params, ble_gap_event, NULL);
 }
 
-// Fires when a phone connects/disconnects — keeps track of who to notify
 static int ble_gap_event(struct ble_gap_event *event, void *arg) {
     switch (event->type) {
         case BLE_GAP_EVENT_CONNECT:
@@ -106,7 +103,7 @@ static int ble_gap_event(struct ble_gap_event *event, void *arg) {
 
         case BLE_GAP_EVENT_DISCONNECT:
             conn_handle = BLE_HS_CONN_HANDLE_NONE;
-            ble_advertise(); // restart advertising so phone can reconnect
+            ble_advertise();
             return 0;
 
         default:
@@ -151,7 +148,6 @@ void ble_init(const char *device_name)
     nimble_port_freertos_init(nimble_host_task);
 }
 
-// Converts the float to text (e.g. 23.5 -> "23.5") and notifies the connected phone
 void ble_update_distance(float distance_cm) {
     snprintf(current_distance_str, sizeof(current_distance_str), "%.1f", distance_cm);
     if (conn_handle != BLE_HS_CONN_HANDLE_NONE) {
