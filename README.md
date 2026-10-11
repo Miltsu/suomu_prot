@@ -19,10 +19,6 @@ In active development, team presentation-ready as of the current sprint. See [Ro
 | Distance sensor | JSN-SR04T waterproof ultrasonic sensor |
 | Temperature sensor | NTC 10k thermistor |
 | Display | Grove 16x2 Black-On-Yellow |
-| Op-amps | 2× MCP6022-E/P dual op-amp |
-| Battery | 18650 Li-ion, 2600mAh |
-| Charging | MicroLipo 3.7V/4.2V charger |
-| Power | 0.9–5V → 5V DC-DC step-up (boost) converter |
 | Buttons | 1× push button |
 | GPS | TBD (provided by course, model not yet confirmed) |
 | Connectivity | Bluetooth Low Energy (built into ESP32-C3) |
