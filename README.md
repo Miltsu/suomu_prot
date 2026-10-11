@@ -88,7 +88,7 @@ The phone-side app is built with **MIT App Inventor** and connects to the device
 - [x] Code split into per-module architecture
 - [x] BLE — service/characteristics drafted, hardware testing in progress
 - [ ] GPS — blocked on hardware arrival
-- [x] Button — pin-budget-constrained; considering an ADC-based button ladder to save GPIOs
+- [x] Button - working
 - [x] Final PCB layout (KiCad) — pending full breadboard integration
 - [x] 3D-printed enclosure
 - [x] Final assembly and soldering
